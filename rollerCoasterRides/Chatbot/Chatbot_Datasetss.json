@@ -1,0 +1,1804 @@
+{
+  "qa_pairs": [
+    {
+      "question": "Hello",
+      "answer": "Hello! I can help you with rides, tickets, facilities, timings, and other park information."
+    },
+    {
+      "question": "Hi",
+      "answer": "Hello! I can help you with rides, tickets, facilities, timings, and other park information."
+    },
+    {
+      "question": "Hey",
+      "answer": "Hello! I can help you with rides, tickets, facilities, timings, and other park information."
+    },
+    {
+      "question": "Good morning",
+      "answer": "Hello! I can help you with rides, tickets, facilities, timings, and other park information."
+    },
+    {
+      "question": "Good evening",
+      "answer": "Hello! I can help you with rides, tickets, facilities, timings, and other park information."
+    },
+    {
+      "question": "Is anyone there?",
+      "answer": "Hello! I can help you with rides, tickets, facilities, timings, and other park information."
+    },
+    {
+      "question": "Can you help me?",
+      "answer": "Hello! I can help you with rides, tickets, facilities, timings, and other park information."
+    },
+    {
+      "question": "I need help",
+      "answer": "Hello! I can help you with rides, tickets, facilities, timings, and other park information."
+    },
+    {
+      "question": "Who are you?",
+      "answer": "Hello! I can help you with rides, tickets, facilities, timings, and other park information."
+    },
+    {
+      "question": "What can you do?",
+      "answer": "Hello! I can help you with rides, tickets, facilities, timings, and other park information."
+    },
+    {
+      "question": "Hi park assistant",
+      "answer": "Hello! I can help you with rides, tickets, facilities, timings, and other park information."
+    },
+    {
+      "question": "Hello park bot",
+      "answer": "Hello! I can help you with rides, tickets, facilities, timings, and other park information."
+    },
+    {
+      "question": "Hey there",
+      "answer": "Hello! I can help you with rides, tickets, facilities, timings, and other park information."
+    },
+    {
+      "question": "Good afternoon",
+      "answer": "Hello! I can help you with rides, tickets, facilities, timings, and other park information."
+    },
+    {
+      "question": "Can I ask something?",
+      "answer": "Hello! I can help you with rides, tickets, facilities, timings, and other park information."
+    },
+    {
+      "question": "I have a question",
+      "answer": "Hello! I can help you with rides, tickets, facilities, timings, and other park information."
+    },
+    {
+      "question": "Is this the park help desk?",
+      "answer": "Hello! I can help you with rides, tickets, facilities, timings, and other park information."
+    },
+    {
+      "question": "Are you the park chatbot?",
+      "answer": "Hello! I can help you with rides, tickets, facilities, timings, and other park information."
+    },
+    {
+      "question": "Can you guide me?",
+      "answer": "Hello! I can help you with rides, tickets, facilities, timings, and other park information."
+    },
+    {
+      "question": "I need information about the park",
+      "answer": "Hello! I can help you with rides, tickets, facilities, timings, and other park information."
+    },
+    {
+      "question": "Can you assist me today?",
+      "answer": "Hello! I can help you with rides, tickets, facilities, timings, and other park information."
+    },
+    {
+      "question": "Hi I am visiting today",
+      "answer": "Hello! I can help you with rides, tickets, facilities, timings, and other park information."
+    },
+    {
+      "question": "Hello I need park information",
+      "answer": "Hello! I can help you with rides, tickets, facilities, timings, and other park information."
+    },
+    {
+      "question": "Hey I need some help",
+      "answer": "Hello! I can help you with rides, tickets, facilities, timings, and other park information."
+    },
+    {
+      "question": "Hi I want to know about rides",
+      "answer": "Hello! I can help you with rides, tickets, facilities, timings, and other park information."
+    },
+    {
+      "question": "Hello what services do you offer",
+      "answer": "Hello! I can help you with rides, tickets, facilities, timings, and other park information."
+    },
+    {
+      "question": "Hi can you guide my visit",
+      "answer": "Hello! I can help you with rides, tickets, facilities, timings, and other park information."
+    },
+    {
+      "question": "Hello park support",
+      "answer": "Hello! I can help you with rides, tickets, facilities, timings, and other park information."
+    },
+    {
+      "question": "Hey park guide",
+      "answer": "Hello! I can help you with rides, tickets, facilities, timings, and other park information."
+    },
+    {
+      "question": "Hi there assistant",
+      "answer": "Hello! I can help you with rides, tickets, facilities, timings, and other park information."
+    },
+    {
+      "question": "What time does the park open?",
+      "answer": "The amusement park operates from 10 AM to 8 PM. Some attractions may close earlier for maintenance or weather conditions."
+    },
+    {
+      "question": "What time does the park close?",
+      "answer": "The amusement park operates from 10 AM to 8 PM. Some attractions may close earlier for maintenance or weather conditions."
+    },
+    {
+      "question": "What are the park timings?",
+      "answer": "The amusement park operates from 10 AM to 8 PM. Some attractions may close earlier for maintenance or weather conditions."
+    },
+    {
+      "question": "When can I enter the park?",
+      "answer": "The amusement park operates from 10 AM to 8 PM. Some attractions may close earlier for maintenance or weather conditions."
+    },
+    {
+      "question": "What are today's operating hours?",
+      "answer": "The amusement park operates from 10 AM to 8 PM. Some attractions may close earlier for maintenance or weather conditions."
+    },
+    {
+      "question": "Is the park open today?",
+      "answer": "The amusement park operates from 10 AM to 8 PM. Some attractions may close earlier for maintenance or weather conditions."
+    },
+    {
+      "question": "What time should I arrive?",
+      "answer": "The amusement park operates from 10 AM to 8 PM. Some attractions may close earlier for maintenance or weather conditions."
+    },
+    {
+      "question": "When do rides start operating?",
+      "answer": "The amusement park operates from 10 AM to 8 PM. Some attractions may close earlier for maintenance or weather conditions."
+    },
+    {
+      "question": "Are rides open all day?",
+      "answer": "The amusement park operates from 10 AM to 8 PM. Some attractions may close earlier for maintenance or weather conditions."
+    },
+    {
+      "question": "What are weekday timings?",
+      "answer": "The amusement park operates from 10 AM to 8 PM. Some attractions may close earlier for maintenance or weather conditions."
+    },
+    {
+      "question": "What are weekend timings?",
+      "answer": "The amusement park operates from 10 AM to 8 PM. Some attractions may close earlier for maintenance or weather conditions."
+    },
+    {
+      "question": "Is the park open at night?",
+      "answer": "The amusement park operates from 10 AM to 8 PM. Some attractions may close earlier for maintenance or weather conditions."
+    },
+    {
+      "question": "What time does the water park open?",
+      "answer": "The amusement park operates from 10 AM to 8 PM. Some attractions may close earlier for maintenance or weather conditions."
+    },
+    {
+      "question": "When do ticket counters open?",
+      "answer": "The amusement park operates from 10 AM to 8 PM. Some attractions may close earlier for maintenance or weather conditions."
+    },
+    {
+      "question": "How long is the park open daily?",
+      "answer": "The amusement park operates from 10 AM to 8 PM. Some attractions may close earlier for maintenance or weather conditions."
+    },
+    {
+      "question": "Does the park close early sometimes?",
+      "answer": "The amusement park operates from 10 AM to 8 PM. Some attractions may close earlier for maintenance or weather conditions."
+    },
+    {
+      "question": "Is the park open on holidays?",
+      "answer": "The amusement park operates from 10 AM to 8 PM. Some attractions may close earlier for maintenance or weather conditions."
+    },
+    {
+      "question": "Are timings different during festivals?",
+      "answer": "The amusement park operates from 10 AM to 8 PM. Some attractions may close earlier for maintenance or weather conditions."
+    },
+    {
+      "question": "Does the park open earlier in summer?",
+      "answer": "The amusement park operates from 10 AM to 8 PM. Some attractions may close earlier for maintenance or weather conditions."
+    },
+    {
+      "question": "Is the park open during winter?",
+      "answer": "The amusement park operates from 10 AM to 8 PM. Some attractions may close earlier for maintenance or weather conditions."
+    },
+    {
+      "question": "When should I visit for fewer crowds?",
+      "answer": "The amusement park operates from 10 AM to 8 PM. Some attractions may close earlier for maintenance or weather conditions."
+    },
+    {
+      "question": "What is the best visiting time?",
+      "answer": "The amusement park operates from 10 AM to 8 PM. Some attractions may close earlier for maintenance or weather conditions."
+    },
+    {
+      "question": "Are rides available after sunset?",
+      "answer": "The amusement park operates from 10 AM to 8 PM. Some attractions may close earlier for maintenance or weather conditions."
+    },
+    {
+      "question": "Does the park close during rain?",
+      "answer": "The amusement park operates from 10 AM to 8 PM. Some attractions may close earlier for maintenance or weather conditions."
+    },
+    {
+      "question": "Do rides stop before closing?",
+      "answer": "The amusement park operates from 10 AM to 8 PM. Some attractions may close earlier for maintenance or weather conditions."
+    },
+    {
+      "question": "Is entry allowed late evening?",
+      "answer": "The amusement park operates from 10 AM to 8 PM. Some attractions may close earlier for maintenance or weather conditions."
+    },
+    {
+      "question": "Can I enter near closing time?",
+      "answer": "The amusement park operates from 10 AM to 8 PM. Some attractions may close earlier for maintenance or weather conditions."
+    },
+    {
+      "question": "Are all rides open in the morning?",
+      "answer": "The amusement park operates from 10 AM to 8 PM. Some attractions may close earlier for maintenance or weather conditions."
+    },
+    {
+      "question": "What time do shows start?",
+      "answer": "The amusement park operates from 10 AM to 8 PM. Some attractions may close earlier for maintenance or weather conditions."
+    },
+    {
+      "question": "Do rides close during lunch time?",
+      "answer": "The amusement park operates from 10 AM to 8 PM. Some attractions may close earlier for maintenance or weather conditions."
+    },
+    {
+      "question": "Is the park open every day?",
+      "answer": "The amusement park operates from 10 AM to 8 PM. Some attractions may close earlier for maintenance or weather conditions."
+    },
+    {
+      "question": "Are there special holiday hours?",
+      "answer": "The amusement park operates from 10 AM to 8 PM. Some attractions may close earlier for maintenance or weather conditions."
+    },
+    {
+      "question": "Is the park closed on Monday?",
+      "answer": "The amusement park operates from 10 AM to 8 PM. Some attractions may close earlier for maintenance or weather conditions."
+    },
+    {
+      "question": "Do you open earlier on weekends?",
+      "answer": "The amusement park operates from 10 AM to 8 PM. Some attractions may close earlier for maintenance or weather conditions."
+    },
+    {
+      "question": "Is the water park open all day?",
+      "answer": "The amusement park operates from 10 AM to 8 PM. Some attractions may close earlier for maintenance or weather conditions."
+    },
+    {
+      "question": "Do rides operate in the evening?",
+      "answer": "The amusement park operates from 10 AM to 8 PM. Some attractions may close earlier for maintenance or weather conditions."
+    },
+    {
+      "question": "When does the ticket gate close?",
+      "answer": "The amusement park operates from 10 AM to 8 PM. Some attractions may close earlier for maintenance or weather conditions."
+    },
+    {
+      "question": "Is the park open after 7 PM?",
+      "answer": "The amusement park operates from 10 AM to 8 PM. Some attractions may close earlier for maintenance or weather conditions."
+    },
+    {
+      "question": "What is today's closing time?",
+      "answer": "The amusement park operates from 10 AM to 8 PM. Some attractions may close earlier for maintenance or weather conditions."
+    },
+    {
+      "question": "What is today's opening time?",
+      "answer": "The amusement park operates from 10 AM to 8 PM. Some attractions may close earlier for maintenance or weather conditions."
+    },
+    {
+      "question": "What is the ticket price?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "How much is entry fee?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "What does a ticket cost?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "How much for adult tickets?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "What is the child ticket price?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Do kids get discount?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Is entry free for toddlers?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Do you offer student discounts?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Are senior citizens discounted?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Do you have family packages?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Are group tickets cheaper?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Do tickets include rides?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Do I need separate ride tickets?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Are water rides included in entry?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "How can I buy tickets?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Can I book tickets online?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Where can I buy tickets?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Is there a ticket counter at the park?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Do you accept online payment?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Can I pay by card?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Can I pay using UPI?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Do you accept cash?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Is there a refund policy?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Can I cancel my ticket?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Can I change my ticket date?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Can I rebook tickets?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Do I need to print tickets?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Can I show mobile ticket?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Do tickets sell out?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Can I buy tickets same day?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Is there express entry ticket?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Do you have fast pass tickets?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Are VIP tickets available?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "What benefits do VIP tickets give?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Are ride passes available?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Can I upgrade my ticket?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Are tickets cheaper online?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Do children need tickets?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Do toddlers require tickets?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Is parking included in ticket?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Do tickets include food?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Do tickets include lockers?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Can I buy tickets at the gate?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Do you sell tickets in advance?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Can companies book tickets?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Can schools book tickets?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Do you offer birthday packages?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Do tickets expire?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Is ticket price different on weekends?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Are festival tickets expensive?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Are evening tickets cheaper?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Do you offer combo tickets?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Are water park tickets separate?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Can I buy ride bundles?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Are multi-day passes available?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Do you offer membership?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Are annual passes available?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "How do I use an annual pass?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Is entry free on birthdays?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Are there promotional offers?",
+      "answer": "Tickets can be purchased online or at the park entrance. Prices vary for adults, children, and special packages."
+    },
+    {
+      "question": "Is there a roller coaster ride?",
+      "answer": "The roller coaster is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "How scary is the roller coaster?",
+      "answer": "The roller coaster is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the roller coaster safe?",
+      "answer": "The roller coaster is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "What is the height requirement for the roller coaster?",
+      "answer": "The roller coaster is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Can kids ride the roller coaster?",
+      "answer": "The roller coaster is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "How long is the roller coaster ride?",
+      "answer": "The roller coaster is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the roller coaster suitable for families?",
+      "answer": "The roller coaster is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Where is the roller coaster located?",
+      "answer": "The roller coaster is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the roller coaster open today?",
+      "answer": "The roller coaster is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Do I need a fast pass for the roller coaster?",
+      "answer": "The roller coaster is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the roller coaster very fast?",
+      "answer": "The roller coaster is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Does the roller coaster go upside down?",
+      "answer": "The roller coaster is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the roller coaster good for beginners?",
+      "answer": "The roller coaster is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Do I need to wait long for the roller coaster?",
+      "answer": "The roller coaster is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the roller coaster the most popular ride?",
+      "answer": "The roller coaster is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is there a giant wheel ride?",
+      "answer": "The giant wheel is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "How scary is the giant wheel?",
+      "answer": "The giant wheel is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the giant wheel safe?",
+      "answer": "The giant wheel is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "What is the height requirement for the giant wheel?",
+      "answer": "The giant wheel is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Can kids ride the giant wheel?",
+      "answer": "The giant wheel is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "How long is the giant wheel ride?",
+      "answer": "The giant wheel is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the giant wheel suitable for families?",
+      "answer": "The giant wheel is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Where is the giant wheel located?",
+      "answer": "The giant wheel is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the giant wheel open today?",
+      "answer": "The giant wheel is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Do I need a fast pass for the giant wheel?",
+      "answer": "The giant wheel is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the giant wheel very fast?",
+      "answer": "The giant wheel is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Does the giant wheel go upside down?",
+      "answer": "The giant wheel is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the giant wheel good for beginners?",
+      "answer": "The giant wheel is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Do I need to wait long for the giant wheel?",
+      "answer": "The giant wheel is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the giant wheel the most popular ride?",
+      "answer": "The giant wheel is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is there a drop tower ride?",
+      "answer": "The drop tower is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "How scary is the drop tower?",
+      "answer": "The drop tower is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the drop tower safe?",
+      "answer": "The drop tower is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "What is the height requirement for the drop tower?",
+      "answer": "The drop tower is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Can kids ride the drop tower?",
+      "answer": "The drop tower is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "How long is the drop tower ride?",
+      "answer": "The drop tower is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the drop tower suitable for families?",
+      "answer": "The drop tower is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Where is the drop tower located?",
+      "answer": "The drop tower is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the drop tower open today?",
+      "answer": "The drop tower is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Do I need a fast pass for the drop tower?",
+      "answer": "The drop tower is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the drop tower very fast?",
+      "answer": "The drop tower is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Does the drop tower go upside down?",
+      "answer": "The drop tower is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the drop tower good for beginners?",
+      "answer": "The drop tower is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Do I need to wait long for the drop tower?",
+      "answer": "The drop tower is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the drop tower the most popular ride?",
+      "answer": "The drop tower is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is there a bumper cars ride?",
+      "answer": "The bumper cars is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "How scary is the bumper cars?",
+      "answer": "The bumper cars is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the bumper cars safe?",
+      "answer": "The bumper cars is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "What is the height requirement for the bumper cars?",
+      "answer": "The bumper cars is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Can kids ride the bumper cars?",
+      "answer": "The bumper cars is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "How long is the bumper cars ride?",
+      "answer": "The bumper cars is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the bumper cars suitable for families?",
+      "answer": "The bumper cars is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Where is the bumper cars located?",
+      "answer": "The bumper cars is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the bumper cars open today?",
+      "answer": "The bumper cars is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Do I need a fast pass for the bumper cars?",
+      "answer": "The bumper cars is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the bumper cars very fast?",
+      "answer": "The bumper cars is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Does the bumper cars go upside down?",
+      "answer": "The bumper cars is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the bumper cars good for beginners?",
+      "answer": "The bumper cars is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Do I need to wait long for the bumper cars?",
+      "answer": "The bumper cars is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the bumper cars the most popular ride?",
+      "answer": "The bumper cars is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is there a carousel ride?",
+      "answer": "The carousel is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "How scary is the carousel?",
+      "answer": "The carousel is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the carousel safe?",
+      "answer": "The carousel is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "What is the height requirement for the carousel?",
+      "answer": "The carousel is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Can kids ride the carousel?",
+      "answer": "The carousel is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "How long is the carousel ride?",
+      "answer": "The carousel is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the carousel suitable for families?",
+      "answer": "The carousel is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Where is the carousel located?",
+      "answer": "The carousel is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the carousel open today?",
+      "answer": "The carousel is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Do I need a fast pass for the carousel?",
+      "answer": "The carousel is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the carousel very fast?",
+      "answer": "The carousel is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Does the carousel go upside down?",
+      "answer": "The carousel is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the carousel good for beginners?",
+      "answer": "The carousel is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Do I need to wait long for the carousel?",
+      "answer": "The carousel is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the carousel the most popular ride?",
+      "answer": "The carousel is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is there a water slide ride?",
+      "answer": "The water slide is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "How scary is the water slide?",
+      "answer": "The water slide is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the water slide safe?",
+      "answer": "The water slide is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "What is the height requirement for the water slide?",
+      "answer": "The water slide is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Can kids ride the water slide?",
+      "answer": "The water slide is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "How long is the water slide ride?",
+      "answer": "The water slide is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the water slide suitable for families?",
+      "answer": "The water slide is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Where is the water slide located?",
+      "answer": "The water slide is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the water slide open today?",
+      "answer": "The water slide is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Do I need a fast pass for the water slide?",
+      "answer": "The water slide is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the water slide very fast?",
+      "answer": "The water slide is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Does the water slide go upside down?",
+      "answer": "The water slide is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the water slide good for beginners?",
+      "answer": "The water slide is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Do I need to wait long for the water slide?",
+      "answer": "The water slide is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the water slide the most popular ride?",
+      "answer": "The water slide is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is there a log flume ride?",
+      "answer": "The log flume is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "How scary is the log flume?",
+      "answer": "The log flume is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the log flume safe?",
+      "answer": "The log flume is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "What is the height requirement for the log flume?",
+      "answer": "The log flume is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Can kids ride the log flume?",
+      "answer": "The log flume is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "How long is the log flume ride?",
+      "answer": "The log flume is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the log flume suitable for families?",
+      "answer": "The log flume is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Where is the log flume located?",
+      "answer": "The log flume is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the log flume open today?",
+      "answer": "The log flume is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Do I need a fast pass for the log flume?",
+      "answer": "The log flume is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the log flume very fast?",
+      "answer": "The log flume is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Does the log flume go upside down?",
+      "answer": "The log flume is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the log flume good for beginners?",
+      "answer": "The log flume is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Do I need to wait long for the log flume?",
+      "answer": "The log flume is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the log flume the most popular ride?",
+      "answer": "The log flume is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is there a swing ride ride?",
+      "answer": "The swing ride is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "How scary is the swing ride?",
+      "answer": "The swing ride is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the swing ride safe?",
+      "answer": "The swing ride is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "What is the height requirement for the swing ride?",
+      "answer": "The swing ride is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Can kids ride the swing ride?",
+      "answer": "The swing ride is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "How long is the swing ride ride?",
+      "answer": "The swing ride is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the swing ride suitable for families?",
+      "answer": "The swing ride is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Where is the swing ride located?",
+      "answer": "The swing ride is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the swing ride open today?",
+      "answer": "The swing ride is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Do I need a fast pass for the swing ride?",
+      "answer": "The swing ride is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the swing ride very fast?",
+      "answer": "The swing ride is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Does the swing ride go upside down?",
+      "answer": "The swing ride is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the swing ride good for beginners?",
+      "answer": "The swing ride is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Do I need to wait long for the swing ride?",
+      "answer": "The swing ride is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the swing ride the most popular ride?",
+      "answer": "The swing ride is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is there a haunted house ride?",
+      "answer": "The haunted house is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "How scary is the haunted house?",
+      "answer": "The haunted house is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the haunted house safe?",
+      "answer": "The haunted house is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "What is the height requirement for the haunted house?",
+      "answer": "The haunted house is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Can kids ride the haunted house?",
+      "answer": "The haunted house is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "How long is the haunted house ride?",
+      "answer": "The haunted house is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the haunted house suitable for families?",
+      "answer": "The haunted house is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Where is the haunted house located?",
+      "answer": "The haunted house is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the haunted house open today?",
+      "answer": "The haunted house is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Do I need a fast pass for the haunted house?",
+      "answer": "The haunted house is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the haunted house very fast?",
+      "answer": "The haunted house is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Does the haunted house go upside down?",
+      "answer": "The haunted house is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the haunted house good for beginners?",
+      "answer": "The haunted house is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Do I need to wait long for the haunted house?",
+      "answer": "The haunted house is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the haunted house the most popular ride?",
+      "answer": "The haunted house is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is there a mini train ride?",
+      "answer": "The mini train is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "How scary is the mini train?",
+      "answer": "The mini train is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the mini train safe?",
+      "answer": "The mini train is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "What is the height requirement for the mini train?",
+      "answer": "The mini train is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Can kids ride the mini train?",
+      "answer": "The mini train is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "How long is the mini train ride?",
+      "answer": "The mini train is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the mini train suitable for families?",
+      "answer": "The mini train is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Where is the mini train located?",
+      "answer": "The mini train is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the mini train open today?",
+      "answer": "The mini train is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Do I need a fast pass for the mini train?",
+      "answer": "The mini train is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the mini train very fast?",
+      "answer": "The mini train is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Does the mini train go upside down?",
+      "answer": "The mini train is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the mini train good for beginners?",
+      "answer": "The mini train is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Do I need to wait long for the mini train?",
+      "answer": "The mini train is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is the mini train the most popular ride?",
+      "answer": "The mini train is one of our popular attractions. Please follow the safety instructions and height restrictions before riding."
+    },
+    {
+      "question": "Is parking available in the park?",
+      "answer": "Yes, the park provides parking facilities for visitors."
+    },
+    {
+      "question": "Where can I find the parking?",
+      "answer": "Yes, the park provides parking facilities for visitors."
+    },
+    {
+      "question": "Do you provide parking?",
+      "answer": "Yes, the park provides parking facilities for visitors."
+    },
+    {
+      "question": "Is the parking free to use?",
+      "answer": "Yes, the park provides parking facilities for visitors."
+    },
+    {
+      "question": "Is the parking easy to find?",
+      "answer": "Yes, the park provides parking facilities for visitors."
+    },
+    {
+      "question": "Is the parking near the entrance?",
+      "answer": "Yes, the park provides parking facilities for visitors."
+    },
+    {
+      "question": "Can visitors use the parking?",
+      "answer": "Yes, the park provides parking facilities for visitors."
+    },
+    {
+      "question": "Is the parking open all day?",
+      "answer": "Yes, the park provides parking facilities for visitors."
+    },
+    {
+      "question": "Do you have multiple parking locations?",
+      "answer": "Yes, the park provides parking facilities for visitors."
+    },
+    {
+      "question": "Is the parking accessible for everyone?",
+      "answer": "Yes, the park provides parking facilities for visitors."
+    },
+    {
+      "question": "Is lockers available in the park?",
+      "answer": "Yes, the park provides lockers facilities for visitors."
+    },
+    {
+      "question": "Where can I find the lockers?",
+      "answer": "Yes, the park provides lockers facilities for visitors."
+    },
+    {
+      "question": "Do you provide lockers?",
+      "answer": "Yes, the park provides lockers facilities for visitors."
+    },
+    {
+      "question": "Is the lockers free to use?",
+      "answer": "Yes, the park provides lockers facilities for visitors."
+    },
+    {
+      "question": "Is the lockers easy to find?",
+      "answer": "Yes, the park provides lockers facilities for visitors."
+    },
+    {
+      "question": "Is the lockers near the entrance?",
+      "answer": "Yes, the park provides lockers facilities for visitors."
+    },
+    {
+      "question": "Can visitors use the lockers?",
+      "answer": "Yes, the park provides lockers facilities for visitors."
+    },
+    {
+      "question": "Is the lockers open all day?",
+      "answer": "Yes, the park provides lockers facilities for visitors."
+    },
+    {
+      "question": "Do you have multiple lockers locations?",
+      "answer": "Yes, the park provides lockers facilities for visitors."
+    },
+    {
+      "question": "Is the lockers accessible for everyone?",
+      "answer": "Yes, the park provides lockers facilities for visitors."
+    },
+    {
+      "question": "Is restrooms available in the park?",
+      "answer": "Yes, the park provides restrooms facilities for visitors."
+    },
+    {
+      "question": "Where can I find the restrooms?",
+      "answer": "Yes, the park provides restrooms facilities for visitors."
+    },
+    {
+      "question": "Do you provide restrooms?",
+      "answer": "Yes, the park provides restrooms facilities for visitors."
+    },
+    {
+      "question": "Is the restrooms free to use?",
+      "answer": "Yes, the park provides restrooms facilities for visitors."
+    },
+    {
+      "question": "Is the restrooms easy to find?",
+      "answer": "Yes, the park provides restrooms facilities for visitors."
+    },
+    {
+      "question": "Is the restrooms near the entrance?",
+      "answer": "Yes, the park provides restrooms facilities for visitors."
+    },
+    {
+      "question": "Can visitors use the restrooms?",
+      "answer": "Yes, the park provides restrooms facilities for visitors."
+    },
+    {
+      "question": "Is the restrooms open all day?",
+      "answer": "Yes, the park provides restrooms facilities for visitors."
+    },
+    {
+      "question": "Do you have multiple restrooms locations?",
+      "answer": "Yes, the park provides restrooms facilities for visitors."
+    },
+    {
+      "question": "Is the restrooms accessible for everyone?",
+      "answer": "Yes, the park provides restrooms facilities for visitors."
+    },
+    {
+      "question": "Is first aid available in the park?",
+      "answer": "Yes, the park provides first aid facilities for visitors."
+    },
+    {
+      "question": "Where can I find the first aid?",
+      "answer": "Yes, the park provides first aid facilities for visitors."
+    },
+    {
+      "question": "Do you provide first aid?",
+      "answer": "Yes, the park provides first aid facilities for visitors."
+    },
+    {
+      "question": "Is the first aid free to use?",
+      "answer": "Yes, the park provides first aid facilities for visitors."
+    },
+    {
+      "question": "Is the first aid easy to find?",
+      "answer": "Yes, the park provides first aid facilities for visitors."
+    },
+    {
+      "question": "Is the first aid near the entrance?",
+      "answer": "Yes, the park provides first aid facilities for visitors."
+    },
+    {
+      "question": "Can visitors use the first aid?",
+      "answer": "Yes, the park provides first aid facilities for visitors."
+    },
+    {
+      "question": "Is the first aid open all day?",
+      "answer": "Yes, the park provides first aid facilities for visitors."
+    },
+    {
+      "question": "Do you have multiple first aid locations?",
+      "answer": "Yes, the park provides first aid facilities for visitors."
+    },
+    {
+      "question": "Is the first aid accessible for everyone?",
+      "answer": "Yes, the park provides first aid facilities for visitors."
+    },
+    {
+      "question": "Is food court available in the park?",
+      "answer": "Yes, the park provides food court facilities for visitors."
+    },
+    {
+      "question": "Where can I find the food court?",
+      "answer": "Yes, the park provides food court facilities for visitors."
+    },
+    {
+      "question": "Do you provide food court?",
+      "answer": "Yes, the park provides food court facilities for visitors."
+    },
+    {
+      "question": "Is the food court free to use?",
+      "answer": "Yes, the park provides food court facilities for visitors."
+    },
+    {
+      "question": "Is the food court easy to find?",
+      "answer": "Yes, the park provides food court facilities for visitors."
+    },
+    {
+      "question": "Is the food court near the entrance?",
+      "answer": "Yes, the park provides food court facilities for visitors."
+    },
+    {
+      "question": "Can visitors use the food court?",
+      "answer": "Yes, the park provides food court facilities for visitors."
+    },
+    {
+      "question": "Is the food court open all day?",
+      "answer": "Yes, the park provides food court facilities for visitors."
+    },
+    {
+      "question": "Do you have multiple food court locations?",
+      "answer": "Yes, the park provides food court facilities for visitors."
+    },
+    {
+      "question": "Is the food court accessible for everyone?",
+      "answer": "Yes, the park provides food court facilities for visitors."
+    },
+    {
+      "question": "Is ATM available in the park?",
+      "answer": "Yes, the park provides ATM facilities for visitors."
+    },
+    {
+      "question": "Where can I find the ATM?",
+      "answer": "Yes, the park provides ATM facilities for visitors."
+    },
+    {
+      "question": "Do you provide ATM?",
+      "answer": "Yes, the park provides ATM facilities for visitors."
+    },
+    {
+      "question": "Is the ATM free to use?",
+      "answer": "Yes, the park provides ATM facilities for visitors."
+    },
+    {
+      "question": "Is the ATM easy to find?",
+      "answer": "Yes, the park provides ATM facilities for visitors."
+    },
+    {
+      "question": "Is the ATM near the entrance?",
+      "answer": "Yes, the park provides ATM facilities for visitors."
+    },
+    {
+      "question": "Can visitors use the ATM?",
+      "answer": "Yes, the park provides ATM facilities for visitors."
+    },
+    {
+      "question": "Is the ATM open all day?",
+      "answer": "Yes, the park provides ATM facilities for visitors."
+    },
+    {
+      "question": "Do you have multiple ATM locations?",
+      "answer": "Yes, the park provides ATM facilities for visitors."
+    },
+    {
+      "question": "Is the ATM accessible for everyone?",
+      "answer": "Yes, the park provides ATM facilities for visitors."
+    },
+    {
+      "question": "Is gift shop available in the park?",
+      "answer": "Yes, the park provides gift shop facilities for visitors."
+    },
+    {
+      "question": "Where can I find the gift shop?",
+      "answer": "Yes, the park provides gift shop facilities for visitors."
+    },
+    {
+      "question": "Do you provide gift shop?",
+      "answer": "Yes, the park provides gift shop facilities for visitors."
+    },
+    {
+      "question": "Is the gift shop free to use?",
+      "answer": "Yes, the park provides gift shop facilities for visitors."
+    },
+    {
+      "question": "Is the gift shop easy to find?",
+      "answer": "Yes, the park provides gift shop facilities for visitors."
+    },
+    {
+      "question": "Is the gift shop near the entrance?",
+      "answer": "Yes, the park provides gift shop facilities for visitors."
+    },
+    {
+      "question": "Can visitors use the gift shop?",
+      "answer": "Yes, the park provides gift shop facilities for visitors."
+    },
+    {
+      "question": "Is the gift shop open all day?",
+      "answer": "Yes, the park provides gift shop facilities for visitors."
+    },
+    {
+      "question": "Do you have multiple gift shop locations?",
+      "answer": "Yes, the park provides gift shop facilities for visitors."
+    },
+    {
+      "question": "Is the gift shop accessible for everyone?",
+      "answer": "Yes, the park provides gift shop facilities for visitors."
+    },
+    {
+      "question": "Is baby care room available in the park?",
+      "answer": "Yes, the park provides baby care room facilities for visitors."
+    },
+    {
+      "question": "Where can I find the baby care room?",
+      "answer": "Yes, the park provides baby care room facilities for visitors."
+    },
+    {
+      "question": "Do you provide baby care room?",
+      "answer": "Yes, the park provides baby care room facilities for visitors."
+    },
+    {
+      "question": "Is the baby care room free to use?",
+      "answer": "Yes, the park provides baby care room facilities for visitors."
+    },
+    {
+      "question": "Is the baby care room easy to find?",
+      "answer": "Yes, the park provides baby care room facilities for visitors."
+    },
+    {
+      "question": "Is the baby care room near the entrance?",
+      "answer": "Yes, the park provides baby care room facilities for visitors."
+    },
+    {
+      "question": "Can visitors use the baby care room?",
+      "answer": "Yes, the park provides baby care room facilities for visitors."
+    },
+    {
+      "question": "Is the baby care room open all day?",
+      "answer": "Yes, the park provides baby care room facilities for visitors."
+    },
+    {
+      "question": "Do you have multiple baby care room locations?",
+      "answer": "Yes, the park provides baby care room facilities for visitors."
+    },
+    {
+      "question": "Is the baby care room accessible for everyone?",
+      "answer": "Yes, the park provides baby care room facilities for visitors."
+    },
+    {
+      "question": "Is drinking water available in the park?",
+      "answer": "Yes, the park provides drinking water facilities for visitors."
+    },
+    {
+      "question": "Where can I find the drinking water?",
+      "answer": "Yes, the park provides drinking water facilities for visitors."
+    },
+    {
+      "question": "Do you provide drinking water?",
+      "answer": "Yes, the park provides drinking water facilities for visitors."
+    },
+    {
+      "question": "Is the drinking water free to use?",
+      "answer": "Yes, the park provides drinking water facilities for visitors."
+    },
+    {
+      "question": "Is the drinking water easy to find?",
+      "answer": "Yes, the park provides drinking water facilities for visitors."
+    },
+    {
+      "question": "Is the drinking water near the entrance?",
+      "answer": "Yes, the park provides drinking water facilities for visitors."
+    },
+    {
+      "question": "Can visitors use the drinking water?",
+      "answer": "Yes, the park provides drinking water facilities for visitors."
+    },
+    {
+      "question": "Is the drinking water open all day?",
+      "answer": "Yes, the park provides drinking water facilities for visitors."
+    },
+    {
+      "question": "Do you have multiple drinking water locations?",
+      "answer": "Yes, the park provides drinking water facilities for visitors."
+    },
+    {
+      "question": "Is the drinking water accessible for everyone?",
+      "answer": "Yes, the park provides drinking water facilities for visitors."
+    },
+    {
+      "question": "Is information desk available in the park?",
+      "answer": "Yes, the park provides information desk facilities for visitors."
+    },
+    {
+      "question": "Where can I find the information desk?",
+      "answer": "Yes, the park provides information desk facilities for visitors."
+    },
+    {
+      "question": "Do you provide information desk?",
+      "answer": "Yes, the park provides information desk facilities for visitors."
+    },
+    {
+      "question": "Is the information desk free to use?",
+      "answer": "Yes, the park provides information desk facilities for visitors."
+    },
+    {
+      "question": "Is the information desk easy to find?",
+      "answer": "Yes, the park provides information desk facilities for visitors."
+    },
+    {
+      "question": "Is the information desk near the entrance?",
+      "answer": "Yes, the park provides information desk facilities for visitors."
+    },
+    {
+      "question": "Can visitors use the information desk?",
+      "answer": "Yes, the park provides information desk facilities for visitors."
+    },
+    {
+      "question": "Is the information desk open all day?",
+      "answer": "Yes, the park provides information desk facilities for visitors."
+    },
+    {
+      "question": "Do you have multiple information desk locations?",
+      "answer": "Yes, the park provides information desk facilities for visitors."
+    },
+    {
+      "question": "Is the information desk accessible for everyone?",
+      "answer": "Yes, the park provides information desk facilities for visitors."
+    },
+    {
+      "question": "Is wifi available in the park?",
+      "answer": "Yes, the park provides wifi facilities for visitors."
+    },
+    {
+      "question": "Where can I find the wifi?",
+      "answer": "Yes, the park provides wifi facilities for visitors."
+    },
+    {
+      "question": "Do you provide wifi?",
+      "answer": "Yes, the park provides wifi facilities for visitors."
+    },
+    {
+      "question": "Is the wifi free to use?",
+      "answer": "Yes, the park provides wifi facilities for visitors."
+    },
+    {
+      "question": "Is the wifi easy to find?",
+      "answer": "Yes, the park provides wifi facilities for visitors."
+    },
+    {
+      "question": "Is the wifi near the entrance?",
+      "answer": "Yes, the park provides wifi facilities for visitors."
+    },
+    {
+      "question": "Can visitors use the wifi?",
+      "answer": "Yes, the park provides wifi facilities for visitors."
+    },
+    {
+      "question": "Is the wifi open all day?",
+      "answer": "Yes, the park provides wifi facilities for visitors."
+    },
+    {
+      "question": "Do you have multiple wifi locations?",
+      "answer": "Yes, the park provides wifi facilities for visitors."
+    },
+    {
+      "question": "Is the wifi accessible for everyone?",
+      "answer": "Yes, the park provides wifi facilities for visitors."
+    },
+    {
+      "question": "Is seating areas available in the park?",
+      "answer": "Yes, the park provides seating areas facilities for visitors."
+    },
+    {
+      "question": "Where can I find the seating areas?",
+      "answer": "Yes, the park provides seating areas facilities for visitors."
+    },
+    {
+      "question": "Do you provide seating areas?",
+      "answer": "Yes, the park provides seating areas facilities for visitors."
+    },
+    {
+      "question": "Is the seating areas free to use?",
+      "answer": "Yes, the park provides seating areas facilities for visitors."
+    },
+    {
+      "question": "Is the seating areas easy to find?",
+      "answer": "Yes, the park provides seating areas facilities for visitors."
+    },
+    {
+      "question": "Is the seating areas near the entrance?",
+      "answer": "Yes, the park provides seating areas facilities for visitors."
+    },
+    {
+      "question": "Can visitors use the seating areas?",
+      "answer": "Yes, the park provides seating areas facilities for visitors."
+    },
+    {
+      "question": "Is the seating areas open all day?",
+      "answer": "Yes, the park provides seating areas facilities for visitors."
+    },
+    {
+      "question": "Do you have multiple seating areas locations?",
+      "answer": "Yes, the park provides seating areas facilities for visitors."
+    },
+    {
+      "question": "Is the seating areas accessible for everyone?",
+      "answer": "Yes, the park provides seating areas facilities for visitors."
+    },
+    {
+      "question": "Are rides safe?",
+      "answer": "Guest safety is our top priority. All rides are inspected regularly and supervised by trained staff."
+    },
+    {
+      "question": "Do rides have seat belts?",
+      "answer": "Guest safety is our top priority. All rides are inspected regularly and supervised by trained staff."
+    },
+    {
+      "question": "Are rides inspected?",
+      "answer": "Guest safety is our top priority. All rides are inspected regularly and supervised by trained staff."
+    },
+    {
+      "question": "Is there medical help available?",
+      "answer": "Guest safety is our top priority. All rides are inspected regularly and supervised by trained staff."
+    },
+    {
+      "question": "What happens if someone gets injured?",
+      "answer": "Guest safety is our top priority. All rides are inspected regularly and supervised by trained staff."
+    },
+    {
+      "question": "Do you have trained staff?",
+      "answer": "Guest safety is our top priority. All rides are inspected regularly and supervised by trained staff."
+    },
+    {
+      "question": "Are life guards available for water rides?",
+      "answer": "Guest safety is our top priority. All rides are inspected regularly and supervised by trained staff."
+    },
+    {
+      "question": "Do rides stop during storms?",
+      "answer": "Guest safety is our top priority. All rides are inspected regularly and supervised by trained staff."
+    },
+    {
+      "question": "Is the park safe for children?",
+      "answer": "Guest safety is our top priority. All rides are inspected regularly and supervised by trained staff."
+    },
+    {
+      "question": "Are safety instructions given before rides?",
+      "answer": "Guest safety is our top priority. All rides are inspected regularly and supervised by trained staff."
+    },
+    {
+      "question": "Do staff supervise rides?",
+      "answer": "Guest safety is our top priority. All rides are inspected regularly and supervised by trained staff."
+    },
+    {
+      "question": "Are helmets required?",
+      "answer": "Guest safety is our top priority. All rides are inspected regularly and supervised by trained staff."
+    },
+    {
+      "question": "Can pregnant women ride?",
+      "answer": "Guest safety is our top priority. All rides are inspected regularly and supervised by trained staff."
+    },
+    {
+      "question": "Are rides safe for seniors?",
+      "answer": "Guest safety is our top priority. All rides are inspected regularly and supervised by trained staff."
+    },
+    {
+      "question": "Do rides have emergency stop systems?",
+      "answer": "Guest safety is our top priority. All rides are inspected regularly and supervised by trained staff."
+    },
+    {
+      "question": "Are safety checks done daily?",
+      "answer": "Guest safety is our top priority. All rides are inspected regularly and supervised by trained staff."
+    },
+    {
+      "question": "Is security present in the park?",
+      "answer": "Guest safety is our top priority. All rides are inspected regularly and supervised by trained staff."
+    },
+    {
+      "question": "Do you have CCTV cameras?",
+      "answer": "Guest safety is our top priority. All rides are inspected regularly and supervised by trained staff."
+    },
+    {
+      "question": "Are bags checked at entry?",
+      "answer": "Guest safety is our top priority. All rides are inspected regularly and supervised by trained staff."
+    },
+    {
+      "question": "What should I do during emergencies?",
+      "answer": "Guest safety is our top priority. All rides are inspected regularly and supervised by trained staff."
+    },
+    {
+      "question": "Is first aid free?",
+      "answer": "Guest safety is our top priority. All rides are inspected regularly and supervised by trained staff."
+    },
+    {
+      "question": "Where is the medical room?",
+      "answer": "Guest safety is our top priority. All rides are inspected regularly and supervised by trained staff."
+    },
+    {
+      "question": "Do you have ambulance support?",
+      "answer": "Guest safety is our top priority. All rides are inspected regularly and supervised by trained staff."
+    },
+    {
+      "question": "Are there safety signs in the park?",
+      "answer": "Guest safety is our top priority. All rides are inspected regularly and supervised by trained staff."
+    },
+    {
+      "question": "Are rides tested before opening?",
+      "answer": "Guest safety is our top priority. All rides are inspected regularly and supervised by trained staff."
+    },
+    {
+      "question": "Is the water clean in water rides?",
+      "answer": "Guest safety is our top priority. All rides are inspected regularly and supervised by trained staff."
+    },
+    {
+      "question": "Do you check ride equipment daily?",
+      "answer": "Guest safety is our top priority. All rides are inspected regularly and supervised by trained staff."
+    },
+    {
+      "question": "Are children supervised?",
+      "answer": "Guest safety is our top priority. All rides are inspected regularly and supervised by trained staff."
+    },
+    {
+      "question": "Is staff trained in safety?",
+      "answer": "Guest safety is our top priority. All rides are inspected regularly and supervised by trained staff."
+    },
+    {
+      "question": "Are rules displayed?",
+      "answer": "Guest safety is our top priority. All rides are inspected regularly and supervised by trained staff."
+    },
+    {
+      "question": "Do rides have height restrictions?",
+      "answer": "Guest safety is our top priority. All rides are inspected regularly and supervised by trained staff."
+    },
+    {
+      "question": "Are weight limits enforced?",
+      "answer": "Guest safety is our top priority. All rides are inspected regularly and supervised by trained staff."
+    },
+    {
+      "question": "Is running allowed near rides?",
+      "answer": "Guest safety is our top priority. All rides are inspected regularly and supervised by trained staff."
+    },
+    {
+      "question": "Are wet floors marked?",
+      "answer": "Guest safety is our top priority. All rides are inspected regularly and supervised by trained staff."
+    },
+    {
+      "question": "Do you train staff in emergencies?",
+      "answer": "Guest safety is our top priority. All rides are inspected regularly and supervised by trained staff."
+    },
+    {
+      "question": "Is there fire safety equipment?",
+      "answer": "Guest safety is our top priority. All rides are inspected regularly and supervised by trained staff."
+    },
+    {
+      "question": "Are exits clearly marked?",
+      "answer": "Guest safety is our top priority. All rides are inspected regularly and supervised by trained staff."
+    },
+    {
+      "question": "Do rides stop during power cuts?",
+      "answer": "Guest safety is our top priority. All rides are inspected regularly and supervised by trained staff."
+    },
+    {
+      "question": "Do you check weather conditions?",
+      "answer": "Guest safety is our top priority. All rides are inspected regularly and supervised by trained staff."
+    },
+    {
+      "question": "Are life jackets provided?",
+      "answer": "Guest safety is our top priority. All rides are inspected regularly and supervised by trained staff."
+    },
+    {
+      "question": "Do you maintain ride equipment?",
+      "answer": "Guest safety is our top priority. All rides are inspected regularly and supervised by trained staff."
+    },
+    {
+      "question": "Is maintenance done regularly?",
+      "answer": "Guest safety is our top priority. All rides are inspected regularly and supervised by trained staff."
+    },
+    {
+      "question": "Is security available at night?",
+      "answer": "Guest safety is our top priority. All rides are inspected regularly and supervised by trained staff."
+    },
+    {
+      "question": "Are there lost child services?",
+      "answer": "Guest safety is our top priority. All rides are inspected regularly and supervised by trained staff."
+    },
+    {
+      "question": "Do you make safety announcements?",
+      "answer": "Guest safety is our top priority. All rides are inspected regularly and supervised by trained staff."
+    },
+    {
+      "question": "Do you guide first time visitors?",
+      "answer": "Guest safety is our top priority. All rides are inspected regularly and supervised by trained staff."
+    },
+    {
+      "question": "Are staff easy to approach?",
+      "answer": "Guest safety is our top priority. All rides are inspected regularly and supervised by trained staff."
+    },
+    {
+      "question": "Do rides have warning signs?",
+      "answer": "Guest safety is our top priority. All rides are inspected regularly and supervised by trained staff."
+    },
+    {
+      "question": "Is guest safety your priority?",
+      "answer": "Guest safety is our top priority. All rides are inspected regularly and supervised by trained staff."
+    },
+    {
+      "question": "Do you monitor ride queues?",
+      "answer": "Guest safety is our top priority. All rides are inspected regularly and supervised by trained staff."
+    }
+  ]
+}

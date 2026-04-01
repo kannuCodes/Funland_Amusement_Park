@@ -1,0 +1,299 @@
+.main-header{
+    background: linear-gradient(90deg,#4A00E0,#2F80ED);
+    /* background: linear-gradient(90deg,#0F2027,#2C5364); */
+    text-align:center;
+    padding:20px;
+    color:white;
+    font-size:30px;
+    font-weight:bold;
+    box-shadow:0 4px 15px rgba(0,0,0,0.15);
+}
+
+body{
+    font-family:'Segoe UI';
+    margin:0;
+    /* background:linear-gradient(180deg,#f4f9ff,#e3f2fd); */
+    background:linear-gradient(180deg,#f5fbff,#e6f4ff);
+}
+.rides-section{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    justify-content: center;
+    gap: 70px;
+    padding: 60px;
+}
+
+.ride-card{
+    width:260px;
+    height:260px;
+    background:#eee;
+    border-radius:20px;
+    padding:20px;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.diamond{
+    overflow:hidden;
+    width:200px;
+    height:200px;
+    margin:auto;
+    transform: rotate(45deg);
+}
+.circle img{
+    border-radius:50%;
+}
+
+
+.diamond img{
+    width:280px;
+    height:280px;
+    transform: rotate(-45deg);
+    object-fit: cover;
+    /* border-radius:20px; */
+}
+
+.ride-card img{
+    width:200px;
+    height:200px;
+    object-fit:cover;
+    border:10px solid white;
+    transition:0.3s;
+    display:block;
+    margin:0 auto;
+}
+
+.ride-card:hover{
+    transform:translateY(-10px);
+}
+
+.ride-card:hover img{
+    transform:scale(1.08);
+}
+
+.coaster h2{
+    color:#2F80ED;
+}
+
+.tower h2{
+    color:#FF8C42;
+}
+
+.bumper h2{
+    color:#E63946;
+}
+
+.ferris h2{
+    color:#2A9D8F;
+}
+
+.slides h2{
+    color:#1D4ED8;
+}
+
+.rain h2{
+    color:#9D4EDD;
+}
+
+.main-footer{
+    background:#2C3E50;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+.rounded-square img{
+    border-radius:30px;
+}
+
+
+/* ===== Rounded Rectangle ===== */
+
+.rounded-rect img{
+    border-radius:40px;
+}
+
+
+/* ===== Hexagon Shape ===== */
+
+.hexagon img{
+    clip-path: polygon(
+        25% 5%, 75% 5%,
+        100% 50%,
+        75% 95%, 25% 95%,
+        0% 50%
+    );
+}
+
+
+
+.ride-card:hover img{
+    transform:scale(1.1);
+}
+
+
+.diamond:hover img{
+    transform:rotate(45deg) scale(1.1);
+}
+
+/* ===== Welcome Section ===== */
+
+.welcome{
+    text-align:center;
+    padding:30px;
+}
+
+.welcome h2{
+    font-size:36px;
+    color:#333;
+}
+
+.welcome p{
+    color:#666;
+    font-size:18px;
+}
+
+
+/* ===== Ride Cards Upgrade ===== */
+
+.ride-card{
+    background:white;
+    padding:25px;
+    border-radius:25px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+    transition:0.4s;
+}
+
+.ride-card:hover{
+    transform:translateY(-12px) scale(1.03);
+    box-shadow:0 15px 35px rgba(0,0,0,0.2);
+}
+
+
+/* ===== Sidebar ===== */
+
+.sidebar{
+    position:fixed;
+    left:-220px;
+    top:0;
+    width:220px;
+    height:100%;
+    background:#2C3E50;
+    padding-top:60px;
+    transition:0.4s;
+    z-index:1000;
+}
+
+.sidebar a{
+    display:block;
+    padding:15px 25px;
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+    transition:0.3s;
+}
+
+.sidebar a:hover{
+    background:#34495E;
+}
+
+
+/* ===== Menu Button ===== */
+
+.menu-btn{
+    position:fixed;
+    top:20px;
+    left:20px;
+    background:#2F80ED;
+    color:white;
+    border:none;
+    font-size:22px;
+    padding:10px 15px;
+    border-radius:8px;
+    cursor:pointer;
+    z-index:1100;
+}
+
+
+/* ===== Sidebar Open State ===== */
+
+.sidebar.active{
+    left:0;
+}
+
+.sidebar{
+    position:fixed;
+    left:-220px;
+    top:0;
+    width:220px;
+    height:100%;
+    background:#2C3E50;
+    padding-top:60px;
+    transition:0.4s;
+    z-index:1000;
+}
+
+.hero{
+    height:260px;
+    width:80%;
+    margin:30px auto;
+    background:linear-gradient(135deg,#5f2c82,#49a09d);
+    /* background: linear-gradient(135deg,#1CB5E0,#000851); */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+    border-radius:20px;
+    box-shadow:0 15px 35px rgba(0,0,0,0.15);
+    position:relative;
+    overflow:hidden;
+}
+
+
+.hero-content h2{
+    font-size:38px;
+    margin-bottom:10px;
+}
+
+.hero-content p{
+    font-size:16px;
+    margin-bottom:20px;
+}
+
+#chat-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    color: white;
+    font-size: 22px;
+    padding: 16px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+#chatbox {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    width: 300px;
+    height: 400px;
+    background: #f1f1f1;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#chat-messages {
+    height: 250px;
+    overflow-y: auto;
+}
+
+#user-input {
+    width: 70%;
+}

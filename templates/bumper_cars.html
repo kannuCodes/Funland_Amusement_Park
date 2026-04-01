@@ -1,0 +1,252 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bumper Cars</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        *{
+            box-sizing:border-box;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            margin:0;
+            background:#f9fafb;
+            color:#111827;
+        }
+
+        .container{
+            display:flex;
+            min-height:100vh;
+        }
+
+        .sidebar{
+            width:220px;
+            background:#1f2937;
+            box-shadow:2px 0 10px rgba(0,0,0,0.1);
+            transition:0.3s;
+            overflow:hidden;
+        }
+
+        .sidebar.closed{
+            width:70px;
+        }
+
+        .sidebar-header{
+            padding:15px;
+            cursor:pointer;
+            font-size:20px;
+            display:flex;
+            justify-content:flex-end;
+            color:#e5e7eb;
+        }
+
+        .sidebar.closed .sidebar-header{
+            justify-content:center;
+        }
+
+        .sidebar-item{
+            padding:18px 20px;
+            display:flex;
+            align-items:center;
+            gap:15px;
+            cursor:pointer;
+            color:#e5e7eb;
+            text-decoration:none;
+            transition:0.2s;
+        }
+
+        .sidebar-item:hover{
+            background:#374151;
+            color:#f97316;
+        }
+
+        .sidebar-item span{
+            white-space:nowrap;
+        }
+
+        .sidebar.closed span{
+            display:none;
+        }
+
+        .content{
+            flex:1;
+            display:flex;
+            flex-direction:column;
+        }
+
+        header{
+            background:linear-gradient(to right,#f97316,#ef4444);
+            padding:30px;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            color:white;
+        }
+
+        header h1{
+            margin:0;
+        }
+
+        header img{
+            height:150px;
+            border-radius:10px;
+        }
+
+        main{
+            flex:1;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            padding:40px 0;
+        }
+
+        .card{
+            background:#fff;
+            width:350px;
+            padding:30px;
+            border-radius:14px;
+            box-shadow:0 15px 30px rgba(0,0,0,0.12);
+            text-align:center;
+        }
+
+        label{
+            font-weight:bold;
+        }
+
+        input, select{
+            width:100%;
+            padding:8px;
+            margin:8px 0 15px 0;
+            border-radius:6px;
+            border:1px solid #d1d5db;
+        }
+
+        button{
+            width:100%;
+            padding:12px;
+            border:none;
+            border-radius:25px;
+            background:linear-gradient(to right,#f97316,#ef4444);
+            font-size:16px;
+            font-weight:bold;
+            cursor:pointer;
+            color:white;
+        }
+
+        footer{
+            background:#1f2937;
+            padding:15px;
+            text-align:center;
+            color:#e5e7eb;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="sidebar closed" id="sidebar">
+        <div class="sidebar-header" onclick="toggleSidebar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <a href="{% url 'home' %}" class="sidebar-item">
+            <i class="fa-solid fa-house"></i>
+            <span>Home</span>
+        </a>
+
+        <a href="{% url 'rollerCoaster' %}" class="sidebar-item">
+            <i class="fa-solid fa-roller-coaster"></i>
+            <span>RollerCoaster</span>
+        </a>
+
+        <a href="{% url 'drop_tower' %}" class="sidebar-item">
+            <i class="fa-solid fa-arrow-down"></i>
+            <span>Drop Tower</span>
+        </a>
+
+        <a href="{% url 'ferris_wheel' %}" class="sidebar-item">
+            <i class="fa-solid fa-circle-notch"></i>
+            <span>Ferris Wheel</span>
+        </a>
+
+        <a href="{% url 'water_slides' %}" class="sidebar-item">
+            <i class="fa-solid fa-water"></i>
+            <span>Water Slides</span>
+        </a>
+
+        <a href="{% url 'rain_dance' %}" class="sidebar-item">
+            <i class="fa-solid fa-music"></i>
+            <span>Rain Dance Zone</span>
+        </a>
+
+        <a href="#" class="sidebar-item">
+            <i class="fa-solid fa-receipt"></i>
+            <span>Bill Summary</span>
+        </a>
+    </div>
+
+    <div class="content">
+
+        <header>
+            <h1>Welcome to Bumper Cars</h1>
+            <img src="{% static 'rollerCoasterRides/bumper_cars.jpg' %}" alt="Bumper Cars">
+        </header>
+
+        <main>
+            <div class="card">
+                <h2>Please fill your details</h2>
+
+                <form method="POST">
+                    {% csrf_token %}
+
+                    <label>Name :</label>
+                    <input type="text" name="name" required>
+
+                    <label>Age :</label>
+                    <input type="number" name="age" required>
+
+                    <label>Car Type :</label>
+                    <select name="car_type">
+                        <option value="">Select</option>
+                        <option value="Electric">Electric</option>
+                        <option value="Gas">Gas</option>
+                    </select>
+
+                    <label>Number of Laps :</label>
+                    <input type="number" name="laps" required>
+
+                    <button type="submit">Calculate Fare</button>
+                </form>
+
+                {% if message %}
+                    <p style="color:#ef4444;">{{ message }}</p>
+                {% endif %}
+
+                {% if bill %}
+                    <h3>Your total fare is Rs {{ bill }}</h3>
+                {% endif %}
+            </div>
+        </main>
+
+        <footer>
+            <p>Thank you for visiting</p>
+        </footer>
+
+    </div>
+</div>
+
+<script>
+    function toggleSidebar(){
+        document.getElementById("sidebar").classList.toggle("closed");
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,181 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Your Amusement Park </title>
+        <link rel="stylesheet" href="{% static 'rollerCoasterRides/style.css' %}">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    </head>
+
+    <body>
+        <header class="main-header">
+
+    <div class="header-content">
+
+        <h1>🎡 FunLand Amusement Park</h1>
+        <p class="tagline">Where Thrill Meets Fun!</p>
+
+        <div class="header-icons">
+            🎢 🎡 🎠 🎟 🍔 🎉
+        </div>
+
+    </div>
+
+</header>
+<section class="hero">
+
+    <div class="hero-content">
+        <h2>Experience the Ultimate Thrill</h2>
+        <p>Discover exciting rides, water adventures and endless fun!</p>
+
+        <a href="{% url 'rollerCoaster' %}" class="hero-btn">
+            Explore Rides
+        </a>
+    </div>
+
+</section>
+        <div id="sidebar" class="sidebar">
+
+    <a href="{% url 'rollerCoaster' %}">🎢 Rides</a>
+    <a href="{% url 'water_slides' %}" >🌊 Water Rides</a>
+    <a href="#">🍔 Food Court</a>
+    <a href="#">📞 Contact</a>
+    <a href="#">👤 Register/Login</a>
+
+</div>
+
+<button class="menu-btn" onclick="toggleSidebar()">☰</button>
+
+
+       <div class="welcome">
+    
+</div>
+
+        <h1>Welcome to the Home Page</h1>
+        <p>Select your rides </p>
+        <section class="rides-section">        
+    <a href="{% url 'rollerCoaster' %}">        
+    <div class="ride-card coaster circle">
+        <img src="{% static 'rollerCoasterRides/img.jpg' %}">
+        <h2>Roller Coaster</h2>
+    </div>
+    </a>
+
+    <a href="{% url 'drop_tower' %}">   
+    <div class="ride-card tower">
+        <div class="diamond">
+            <img src="{% static 'rollerCoasterRides/drop_towers.jpg' %}">
+        </div>
+        <h2>Drop Tower</h2>
+    </div>
+    </a>
+    <a href="{% url 'bumper_cars' %}">   
+    <div class="ride-card bumper rounded-square">
+        <img src="{% static 'rollerCoasterRides/bumper_cars.jpg' %}">
+        <h2>Bumper Cars</h2>
+    </div>
+    </a>
+
+    <a href="{% url 'ferris_wheel' %}">   
+    <div class="ride-card ferris circle">
+        <img src="{% static 'rollerCoasterRides/fairy_wheel.jpg' %}">
+        <h2>Ferris Wheel</h2>
+    </div>
+    </a>
+
+    <a href="{% url 'water_slides' %}">   
+    <div class="ride-card slides rounded-rect">
+        <img src="{% static 'rollerCoasterRides/water_slides.jpg' %}">
+        <h2>Water Slides</h2>
+    </div>
+    </a>
+
+    <a href="{% url 'rain_dance' %}">   
+    <div class="ride-card rain hexagon">
+        <img src="{% static 'rollerCoasterRides/rain_dance.jpg' %}">
+        <h2>Rain Dance</h2>
+    </div>
+    </a>
+
+</section>
+        </section>
+
+        <footer class="main-footer">
+            <p>© 2026 FunLand Park | All Rights Reserved</p>
+        </footer>
+
+    <script>
+
+function toggleSidebar(){
+    document.getElementById("sidebar").classList.toggle("active");
+}
+
+</script>   
+
+<div id="chatbox" style="display:none;">
+    <h3>Park Assistant</h3>
+
+    <div id = "chat-messages"></div>
+
+    <input type = "text" id="user-input" placeholder="Ask your Queries">
+    <button onclick = "sendMessage()">Send</button>
+</div>
+<div id="chat-icon" onclick="toggleChat()">
+    <i class="fa-solid fa-robot"></i>
+</div>
+
+<script>
+    function sendMessage(){
+        let message = document.getElementById("user-input").value;
+
+        fetch("/chatbot/",{
+            method : "POST",
+            
+            headers : {
+                "Content-Type":"application/json",
+                "X-CSRFToken": getCSRFToken()
+            },
+            body : JSON.stringify({
+                message : message
+            })
+        })
+
+        .then(response => response.json())
+        .then(data => {
+            let chat = document.getElementById("chat-messages");
+
+            chat.innerHTML += "<p><b>You:</b>" + message + "</p>";
+            chat.innerHTML += "<p><b>Bot:</b>" + data.reply + "</p>";
+
+            document.getElementById("user-input").value = "";
+
+        });
+       
+    }
+     function toggleChat(){
+                let chat = document.getElementById("chatbox");
+
+                if (chat.style.display === "none"){
+                    chat.style.display = "block";    
+                }else {
+                    chat.style.display = "none";
+                }
+            }
+
+    function getCSRFToken() {
+    const name = "csrftoken=";
+    const decodedCookie = decodeURIComponent(document.cookie);
+    const cookies = decodedCookie.split(';');
+
+    for (let i = 0; i < cookies.length; i++) {
+        let cookie = cookies[i].trim();
+        if (cookie.startsWith(name)) {
+            return cookie.substring(name.length, cookie.length);
+        }
+    }
+    return null;
+}
+</script>
+</body>
+</html>

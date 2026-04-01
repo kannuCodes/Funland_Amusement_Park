@@ -1,0 +1,256 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Your Fun Buddy!!!</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        *{
+            box-sizing:border-box;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            margin:0;
+            background:#f9fafb; 
+            color:#111827;
+        }
+
+        .container{
+            display:flex;
+            min-height:100vh;
+        }
+
+        /* ===== Sidebar ===== */
+        .sidebar{
+            width:220px;
+            background:#1f2937;
+            box-shadow:2px 0 10px rgba(0,0,0,0.1);
+            transition:0.3s;
+            overflow:hidden;
+        }
+
+        .sidebar.closed{
+            width:70px;
+        }
+
+        .sidebar-header{
+            padding:15px;
+            
+            cursor:pointer;
+            font-size:20px;
+            display:flex; 
+            justify-content:flex-end;
+        }
+        .sidebar.closed .sidebar-header{
+            justify-content:center;
+        }
+
+        .sidebar-item{
+            padding:18px 20px;
+            display:flex;
+            align-items:center;
+            gap:15px;
+            cursor:pointer;
+            color:#e5e7eb; /* 🔴 CHANGED text color */
+            transition:0.2s;
+        }
+
+        .sidebar-item:hover{
+            background:#374151; /* 🔴 CHANGED hover bg */
+            color:#f59e0b;
+        }
+
+        .sidebar-item span{
+            white-space:nowrap;
+        }
+
+        .sidebar.closed span{
+            display:none;
+        }
+
+        /* ===== Content ===== */
+        .content{
+            flex:1;
+            display:flex;
+            flex-direction:column;
+        }
+
+        /* ===== Header ===== */
+        header{
+            background:linear-gradient(to right,#f59e0b,#ec4899);
+            padding:30px;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            color:white;
+        }
+
+        header h1{
+            margin:0;
+        }
+
+        header img{
+            height:150px;
+            border-radius:10px;
+        }
+
+        /* ===== Main ===== */
+        main{
+            flex:1;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            padding:40px 0;
+        }
+
+        .card{
+            background:#fff;
+            width:350px;
+            padding:30px;
+            border-radius:14px;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.12);
+            text-align:center;
+        }
+
+        label{
+            font-weight:bold;
+        }
+
+        input, select{
+            width:100%;
+            padding:8px;
+            margin:8px 0 15px 0;
+            border-radius:6px;
+            border:1px solid #d1d5db;
+        }
+
+        button{
+            width:100%;
+            padding:12px;
+            border:none;
+            border-radius:25px;
+            background:linear-gradient(to right,#f59e0b,#ec4899);
+            font-size:16px;
+            font-weight:bold;
+            cursor:pointer;
+            color: white;
+        }
+
+        /* ===== Footer ===== */
+        footer{
+            background:#1f2937;
+            padding:15px;
+            text-align:center;
+            color:#e5e7eb
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Sidebar -->
+    <div class="sidebar closed" id="sidebar">
+        <div class="sidebar-header" onclick="toggleSidebar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <a href="{% url 'home' %}" class="sidebar-item">
+            <i class="fa-solid fa-house"></i>
+            <span>Home</span>
+        </a>
+
+        <a href="{% url 'drop_tower' %}" class="sidebar-item">
+            <i class="fa-solid fa-arrow-down"></i>
+            <span>Drop Tower</span>
+        </a>
+        
+        <a href="{% url 'bumper_cars' %}" class="sidebar-item">
+            <i class="fa-solid fa-car"></i>
+            <span>Bumper Cars</span>
+        </a>
+        
+        <a href="{% url 'ferris_wheel' %}" class="sidebar-item">
+            <i class="fa-solid fa-circle-notch"></i>
+            <span>Ferris Wheel</span>
+        </a>
+        
+        <a href="{% url 'water_slides' %}" class="sidebar-item">
+            <i class="fa-solid fa-water"></i>
+            <span>Water Slides</span>
+        </a>
+        
+        <a href="{% url 'rain_dance' %}" class="sidebar-item">
+            <i class="fa-solid fa-music"></i>
+            <span>Rain Dance Zone</span>
+        </a>    
+    </div>
+
+    <!-- Content -->
+    <div class="content">
+
+        <header>
+            <h1>Welcome to RollerCoaster Rides</h1>
+            <img src="{% static 'rollerCoasterRides/img.jpg' %}" alt="image">
+        </header>
+
+        <main>
+            <div class="card">
+                <h2>Please fill your details</h2>
+
+                <form method="POST">
+                    {% csrf_token %}
+
+                    <label>Name :</label>
+                    <input type="text" name="name" required>
+
+                    <label>Age :</label>
+                    <input type="number" name="age" required>
+
+                    <label>Height :</label>
+                    <input type="number" name="height" required>
+
+                    <label>Seat preference :</label>
+                    <select name="seat">
+                        <option value="">Select</option>
+                        <option value="S">Starting Seat</option>
+                        <option value="R">Middle Seat</option>
+                        <option value="L">Last Seat</option>
+                    </select>
+
+                    <button type="submit">Calculate Fare</button>
+                </form>
+
+                {% if message %}
+                    <p style="color:#ec4899;">{{ message }}</p>
+                {% endif %}
+
+                {% if bill %}
+                    <h3>Your total fare is Rs {{ bill }}</h3>
+                {% endif %}
+            </div>
+        </main>
+
+        <footer>
+            <p>Thank you for visiting</p>
+        </footer>
+
+    </div>
+</div>
+
+<script>
+    function toggleSidebar(){
+        document.getElementById("sidebar").classList.toggle("closed");
+    }
+</script>
+
+</body>
+</html>
+

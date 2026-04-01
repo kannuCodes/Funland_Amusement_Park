@@ -1,0 +1,284 @@
+{
+  "qa_pairs": [
+
+    { "word": "Hello", "meaning": "Hi , Welcome!\n FunLand is an amusement park with rides, food, and entertainment." },
+    { "word": "park information and rides", "meaning": "FunLand offers dry rides, water rides, food, and facilities." },
+    { "word": "park open days", "meaning": "FunLand is open daily from 10 AM to 11 PM." },
+
+    { "word": "Hi ", "meaning": "Hello , How can i help you" },
+    { "word": "ticket booking available", "meaning": "Tickets can be purchased Online and Offline(if available)" },
+    { "word": "Hey", "meaning": "Hello , How can i help you" },
+
+    { "word": "funland park", "meaning": "FunLand is an amusement park with rides, food, and entertainment." },
+    { "word": "park info", "meaning": "FunLand offers dry rides, water rides, food, and facilities." },
+    { "word": "park details", "meaning": "FunLand is open daily from 10 AM to 11 PM." },
+
+    { "word": "timing", "meaning": "FunLand operates from 10 AM to 11 PM every day." },
+    { "word": "opening time", "meaning": "FunLand opens at 10 AM." },
+    { "word": "closing time", "meaning": "FunLand closes at 11 PM." },
+    { "word": "park hours", "meaning": "The park is open from 10 AM to 11 PM daily." },
+
+    { "word": "ticket price", "meaning": "Ticket prices vary depending on ride, seat type, and age group." },
+    { "word": "entry fee", "meaning": "Entry cost depends on selected rides and categories." },
+    { "word": "ride cost", "meaning": "Each ride has different pricing based on seat and age." },
+    { "word": "ticket charges", "meaning": "Prices vary for different rides and seating types." },
+
+    { "word": "online booking", "meaning": "Tickets can be booked online." },
+    { "word": "book tickets", "meaning": "Tickets are available online and at the counter." },
+    { "word": "ticket counter", "meaning": "Tickets can be purchased at the park counter." },
+
+    { "word": "rides list", "meaning": "FunLand has roller coaster, ferris wheel, bumper cars, drop tower, water slides, and rain dance." },
+    { "word": "ride names", "meaning": "Available rides include roller coaster, ferris wheel, bumper cars, drop tower, water slides, and rain dance." },
+
+    { "word": "roller coaster", "meaning": "The roller coaster is a high-speed thrill ride." },
+    { "word": "ferris wheel", "meaning": "Ferris wheel offers a relaxing ride with a high view." },
+    { "word": "bumper cars", "meaning": "Bumper cars allow fun driving and collisions safely." },
+    { "word": "drop tower", "meaning": "Drop tower gives a thrilling vertical fall experience." },
+    { "word": "water slides", "meaning": "Water slides provide exciting water-based fun." },
+    { "word": "rain dance", "meaning": "Rain dance offers music and water fun." },
+
+    { "word": "dry rides", "meaning": "Dry rides include roller coaster, ferris wheel, bumper cars, and drop tower." },
+    { "word": "water rides", "meaning": "Water rides include water slides and rain dance." },
+
+    { "word": "food", "meaning": "Food options include burger, pizza, fries, coke, and coffee." },
+    { "word": "food options", "meaning": "Visitors can enjoy burgers, pizza, fries, coke, and coffee." },
+    { "word": "burger", "meaning": "Burgers are available at food counters." },
+    { "word": "pizza", "meaning": "Pizza is available for visitors." },
+    { "word": "fries", "meaning": "Fries are available as snacks." },
+    { "word": "coke", "meaning": "Cold drinks like coke are available." },
+    { "word": "coffee", "meaning": "Hot coffee is available at food stalls." },
+
+    { "word": "facilities", "meaning": "Facilities include free parking, first aid, washrooms, and inquiry room." },
+    { "word": "parking", "meaning": "Free parking is available for all visitors." },
+    { "word": "first aid", "meaning": "First aid services are available." },
+    { "word": "washroom", "meaning": "Clean washrooms are available inside the park." },
+
+    { "word": "inquiry", "meaning": "An inquiry room is available for help and information." },
+    { "word": "help desk", "meaning": "You can visit the inquiry room for assistance." },
+
+    { "word": "safety", "meaning": "All rides follow strict safety rules." },
+    { "word": "ride safety", "meaning": "Safety instructions must be followed for all rides." },
+
+    { "word": "rules", "meaning": "Visitors must follow safety rules at all rides." },
+
+    { "word": "visit", "meaning": "You can visit FunLand any day from 10 AM to 11 PM." },
+    { "word": "plan visit", "meaning": "Plan your visit during operating hours." },
+
+    { "word": "family visit", "meaning": "FunLand is suitable for family outings." },
+    { "word": "kids rides", "meaning": "Kids can enjoy safe rides in the park." },
+
+    { "word": "entry", "meaning": "Entry is allowed with valid tickets." },
+    { "word": "counter", "meaning": "Ticket counters are available at the entrance." },
+
+    { "word": "location", "meaning": "FunLand is easily accessible by road." },
+
+    { "word": "open daily", "meaning": "FunLand is open all days of the week." },
+
+    { "word": "thrill rides", "meaning": "Thrill rides include roller coaster and drop tower." },
+    { "word": "relax rides", "meaning": "Ferris wheel provides a relaxing experience." },
+    { "word": "ticket cost adult", "meaning": "Ticket prices vary depending on ride, seating, and age group." },
+    { "word": "ticket cost child", "meaning": "Child ticket prices depend on selected rides and seating type." },
+    { "word": "ride price adult", "meaning": "Ride prices differ for adults based on seating and type." },
+    { "word": "ride price child", "meaning": "Ride prices for children vary by ride and seat." },
+    { "word": "seat price ride", "meaning": "Different seats have different pricing for rides." },
+
+    { "word": "ticket booking online", "meaning": "Tickets can be booked online easily." },
+    { "word": "online ticket booking", "meaning": "Online booking is available for FunLand tickets." },
+    { "word": "buy ticket online", "meaning": "You can purchase tickets online." },
+    { "word": "ticket purchase counter", "meaning": "Tickets are available at the park counter." },
+    { "word": "ticket offline", "meaning": "Tickets can also be bought at the entrance counter." },
+
+    { "word": "park open today", "meaning": "FunLand is open today from 10 AM to 11 PM." },
+    { "word": "park open now", "meaning": "FunLand operates daily from 10 AM to 11 PM." },
+    { "word": "park closing today", "meaning": "FunLand closes at 11 PM." },
+    { "word": "park opening today", "meaning": "FunLand opens at 10 AM." },
+
+    { "word": "ride availability", "meaning": "All major rides are available during park hours." },
+    { "word": "ride open", "meaning": "Rides operate throughout park timing." },
+    { "word": "ride working", "meaning": "Rides are functional during operating hours." },
+
+    { "word": "roller coaster info", "meaning": "Roller coaster is a high-speed thrill ride." },
+    { "word": "roller coaster speed", "meaning": "Roller coaster offers fast and exciting experience." },
+    { "word": "roller coaster safety", "meaning": "Roller coaster follows strict safety guidelines." },
+
+    { "word": "ferris wheel height", "meaning": "Ferris wheel provides a high scenic view." },
+    { "word": "ferris wheel ride", "meaning": "Ferris wheel is a slow and relaxing ride." },
+
+    { "word": "bumper cars play", "meaning": "Bumper cars allow fun and safe collisions." },
+    { "word": "bumper car ride", "meaning": "Bumper cars are interactive driving rides." },
+
+    { "word": "drop tower fall", "meaning": "Drop tower provides a sudden falling thrill." },
+    { "word": "drop tower ride", "meaning": "Drop tower is a vertical thrill ride." },
+
+    { "word": "water slide fun", "meaning": "Water slides provide refreshing fun experience." },
+    { "word": "water slide safety", "meaning": "Water slides follow safety instructions for riders." },
+
+    { "word": "rain dance music", "meaning": "Rain dance includes music and water fun." },
+    { "word": "rain dance area", "meaning": "Rain dance zone provides water and music entertainment." },
+
+    { "word": "dry ride list", "meaning": "Dry rides include roller coaster, ferris wheel, bumper cars, and drop tower." },
+    { "word": "water ride list", "meaning": "Water rides include water slides and rain dance." },
+
+    { "word": "food stall", "meaning": "Food stalls offer burgers, pizza, fries, coke, and coffee." },
+    { "word": "food counter", "meaning": "Food counters are available inside the park." },
+    { "word": "snack items", "meaning": "Snacks include fries, burgers, and pizza." },
+    { "word": "cold drinks", "meaning": "Cold drinks like coke are available." },
+    { "word": "hot drinks", "meaning": "Hot drinks like coffee are available." },
+
+    { "word": "eat park", "meaning": "Visitors can enjoy food inside FunLand." },
+    { "word": "food inside park", "meaning": "Food options are available within the park." },
+
+    { "word": "parking free", "meaning": "Parking is free for all visitors." },
+    { "word": "vehicle parking", "meaning": "Vehicles can be parked safely in designated areas." },
+    { "word": "parking space", "meaning": "Large parking space is available." },
+
+    { "word": "first aid help", "meaning": "First aid is available for emergencies." },
+    { "word": "medical help", "meaning": "Basic medical assistance is available." },
+
+    { "word": "washroom clean", "meaning": "Clean washrooms are available for visitors." },
+    { "word": "toilet facility", "meaning": "Toilet facilities are available inside the park." },
+
+    { "word": "inquiry room", "meaning": "Inquiry room helps visitors with information." },
+    { "word": "information desk", "meaning": "You can visit inquiry desk for help." },
+
+    { "word": "ride instructions", "meaning": "Follow instructions provided at each ride." },
+    { "word": "ride guidelines", "meaning": "Each ride has safety guidelines." },
+    { "word": "ride warning", "meaning": "Warnings are displayed for each ride." },
+
+    { "word": "safe visit", "meaning": "FunLand ensures safety for all visitors." },
+    { "word": "secure park", "meaning": "The park maintains safety standards." },
+
+    { "word": "group entry", "meaning": "Groups are allowed to enter with tickets." },
+    { "word": "family entry", "meaning": "Families can enjoy rides together." },
+
+    { "word": "kids entry", "meaning": "Children are allowed with proper tickets." },
+    { "word": "child ride", "meaning": "Kids can enjoy safe rides." },
+
+    { "word": "weekend crowd", "meaning": "Weekends may have more visitors." },
+    { "word": "weekday visit", "meaning": "Weekdays are less crowded." },
+
+    { "word": "fun activities", "meaning": "FunLand offers multiple activities and rides." },
+    { "word": "park fun", "meaning": "Visitors can enjoy rides and food." },
+
+    { "word": "ride queue", "meaning": "Visitors may need to wait for rides during busy hours." },
+    { "word": "waiting time", "meaning": "Waiting time depends on crowd." },
+
+    { "word": "entry rules", "meaning": "Entry is allowed with valid tickets." },
+    { "word": "park rules", "meaning": "Visitors must follow park rules." },
+
+    { "word": "ride experience thrill", "meaning": "Thrill rides provide exciting experiences." },
+    { "word": "ride experience relax", "meaning": "Relax rides provide calm enjoyment." },
+
+    { "word": "summer visit", "meaning": "Water rides are perfect for summer." },
+    { "word": "cool rides", "meaning": "Water rides help you cool down." },
+
+    { "word": "full day fun", "meaning": "FunLand offers full day entertainment." },
+    { "word": "enjoy park", "meaning": "Visitors can enjoy multiple rides and food." },
+
+    { "word": "ride access", "meaning": "Rides are accessible during park hours." },
+    { "word": "ride entry", "meaning": "Entry to rides requires valid ticket." },
+    { "word": "funland entry", "meaning": "Entry is allowed with valid tickets at FunLand." },
+    { "word": "entry ticket required", "meaning": "Visitors must have tickets for entry." },
+    { "word": "ticket needed entry", "meaning": "A valid ticket is required to enter the park." },
+
+    { "word": "ride seat type", "meaning": "Ride pricing depends on seat type and category." },
+    { "word": "seat category ride", "meaning": "Different seat categories have different pricing." },
+
+    { "word": "ride age group", "meaning": "Ride prices and access depend on age group." },
+    { "word": "age based price", "meaning": "Pricing varies based on age group." },
+
+    { "word": "thrill experience", "meaning": "Thrill rides like roller coaster offer exciting experiences." },
+    { "word": "extreme rides", "meaning": "Roller coaster and drop tower are extreme rides." },
+
+    { "word": "family fun rides", "meaning": "Ferris wheel and bumper cars are family-friendly rides." },
+    { "word": "kids friendly rides", "meaning": "Safe rides are available for kids." },
+
+    { "word": "ride enjoyment", "meaning": "FunLand provides enjoyable ride experiences." },
+    { "word": "fun experience park", "meaning": "Visitors can enjoy fun rides and activities." },
+
+    { "word": "water fun zone", "meaning": "Water slides and rain dance provide water fun." },
+    { "word": "wet fun", "meaning": "Water rides offer refreshing experiences." },
+
+    { "word": "rain dance music fun", "meaning": "Rain dance combines music and water entertainment." },
+    { "word": "water dance area", "meaning": "Rain dance zone provides water and music fun." },
+
+    { "word": "ride safety rules", "meaning": "All rides have safety rules that must be followed." },
+    { "word": "follow ride rules", "meaning": "Visitors must follow ride safety instructions." },
+
+    { "word": "park safety system", "meaning": "FunLand maintains strict safety standards." },
+    { "word": "visitor safety", "meaning": "Visitor safety is ensured across all rides." },
+
+    { "word": "food snacks", "meaning": "Snacks like fries and burgers are available." },
+    { "word": "quick food", "meaning": "Quick food options include pizza, fries, and burgers." },
+
+    { "word": "drink options", "meaning": "Drinks like coke and coffee are available." },
+    { "word": "refreshments available", "meaning": "Food and drinks are available inside the park." },
+
+    { "word": "meal break", "meaning": "Visitors can take breaks and enjoy food." },
+    { "word": "eat drink park", "meaning": "Food and beverages are available at stalls." },
+
+    { "word": "parking facility free", "meaning": "Parking is free for all vehicles." },
+    { "word": "vehicle safe parking", "meaning": "Vehicles can be parked safely in the parking area." },
+
+    { "word": "medical support", "meaning": "First aid support is available in case of emergency." },
+    { "word": "emergency help", "meaning": "Emergency assistance is available at the park." },
+
+    { "word": "clean toilets", "meaning": "Clean washrooms are available for visitors." },
+    { "word": "restroom facility", "meaning": "Restroom facilities are provided." },
+
+    { "word": "information help", "meaning": "Inquiry room provides visitor assistance." },
+    { "word": "park assistance", "meaning": "Visitors can get help from inquiry room." },
+
+    { "word": "ride wait time", "meaning": "Waiting time depends on crowd and ride popularity." },
+    { "word": "queue line ride", "meaning": "Visitors may need to wait in queue for rides." },
+
+    { "word": "crowd level", "meaning": "Crowd varies depending on day and time." },
+    { "word": "busy park", "meaning": "Weekends may have higher crowd." },
+
+    { "word": "less crowd time", "meaning": "Weekdays are generally less crowded." },
+    { "word": "best visit time", "meaning": "Morning hours are best for fewer crowds." },
+
+    { "word": "full park access", "meaning": "Visitors can access rides during operating hours." },
+    { "word": "ride entry allowed", "meaning": "Ride entry is allowed with valid tickets." },
+
+    { "word": "park visit plan", "meaning": "Plan your visit between 10 AM and 11 PM." },
+    { "word": "day plan funland", "meaning": "FunLand offers full day entertainment." },
+
+    { "word": "enjoy full day", "meaning": "Visitors can enjoy a full day at FunLand." },
+    { "word": "complete fun day", "meaning": "FunLand provides complete day fun experience." },
+
+    { "word": "ride combination", "meaning": "Visitors can enjoy both dry and water rides." },
+    { "word": "all ride types", "meaning": "FunLand has both water and dry rides." },
+
+    { "word": "park entertainment", "meaning": "FunLand offers entertainment through rides and activities." },
+    { "word": "fun activities park", "meaning": "Various fun activities are available." },
+
+    { "word": "visit anytime", "meaning": "FunLand is open all days of the week." },
+    { "word": "daily open park", "meaning": "The park operates every day." },
+
+    { "word": "ride enjoyment level", "meaning": "Each ride provides unique enjoyment." },
+    { "word": "fun ride level", "meaning": "FunLand rides are designed for enjoyment." },
+
+    { "word": "park entry gate", "meaning": "Entry gates are open during park hours." },
+    { "word": "entry access", "meaning": "Visitors can enter with valid tickets." },
+
+    { "word": "ride experience fun", "meaning": "Rides provide exciting and fun experiences." },
+    { "word": "enjoy rides park", "meaning": "Visitors can enjoy multiple rides." },
+
+    { "word": "cool water rides", "meaning": "Water rides provide cooling fun experience." },
+    { "word": "summer cooling rides", "meaning": "Water rides are perfect during summer." },
+
+    { "word": "family entertainment", "meaning": "FunLand is ideal for family entertainment." },
+    { "word": "group entertainment", "meaning": "Groups can enjoy rides together." },
+
+    { "word": "kids entertainment", "meaning": "Kids have safe and fun rides available." },
+    { "word": "child enjoyment", "meaning": "Children can enjoy rides and activities." },
+
+    { "word": "ride variety", "meaning": "FunLand offers a variety of rides." },
+    { "word": "multiple rides", "meaning": "There are multiple rides to enjoy." },
+
+    { "word": "park enjoyment", "meaning": "FunLand provides full entertainment experience." },
+    { "word": "enjoy funland", "meaning": "Visitors can enjoy rides, food, and facilities." }
+
+  ]
+}
