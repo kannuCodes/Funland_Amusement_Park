@@ -1,5 +1,6 @@
 .main-header{
     background: linear-gradient(90deg,#4A00E0,#2F80ED);
+    /* background: linear-gradient(90deg,#0F2027,#2C5364); */
     text-align:center;
     padding:10px 20px;
     color:white;
@@ -7,35 +8,26 @@
     font-weight:bold;
     box-shadow:0 4px 15px rgba(0,0,0,0.15);
 }
- 
+
 body{
     font-family:'Segoe UI';
     margin:0;
+    /* background:linear-gradient(180deg,#f4f9ff,#e3f2fd); */
     background:linear-gradient(180deg,#f5fbff,#e6f4ff);
 }
- 
 .rides-section{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     justify-content: center;
-    gap: 40px;
-    padding: 40px;
-    max-width:1400px;
-    margin:auto;
-    /* background: #dce9f5;
-    border-radius: 20px; */
+    gap: 30px;
+    padding: 30px 80px;
 }
-.rides-section a{
-    display:block;
-    text-decoration:none;
-}
- 
+
 .ride-card{
-    box-sizing:border-box;
     width:100%;
     height:auto;
     background:#eee;
-    min-height: 320px;
+    min-height: 240px;
     border-radius:20px;
     padding:20px;
     text-align:center;
@@ -44,26 +36,27 @@ body{
     justify-content:center;
     align-items:center;
 }
- 
+
 .diamond{
     overflow:hidden;
-    width:180px;
-    height:180px;
+    width:200px;
+    height:200px;
     margin:auto;
     transform: rotate(45deg);
 }
- 
 .circle img{
     border-radius:50%;
 }
- 
+
+
 .diamond img{
-    width:100%;
-    height:100%;
-    transform: rotate(-45deg) scale(1.15);
+    width:280px;
+    height:280px;
+    transform: rotate(-45deg);
     object-fit: cover;
+    /* border-radius:20px; */
 }
- 
+
 .ride-card img{
     width:200px;
     height:200px;
@@ -73,65 +66,62 @@ body{
     display:block;
     margin:0 auto;
 }
-.ride-card h2{
-    margin-top:20px;
-    font-size:24px;
-    font-weight:600;
-}
- 
+
 .ride-card:hover{
     transform:translateY(-10px);
 }
- 
+
 .ride-card:hover img{
     transform:scale(1.08);
 }
- 
+
 .coaster h2{
     color:#2F80ED;
 }
- 
+
 .tower h2{
     color:#FF8C42;
 }
- 
+
 .bumper h2{
     color:#E63946;
 }
- 
+
 .ferris h2{
     color:#2A9D8F;
 }
- 
+
 .slides h2{
     color:#1D4ED8;
 }
- 
+
 .rain h2{
     color:#9D4EDD;
 }
- 
+
 .main-footer{
     background:#2C3E50;
     color:white;
     text-align:center;
-    padding:30px;
-    margin-top:60px;
-    font-size:15px;
+    padding:20px;
+    margin-top:40px;
 }
- 
+
 .rounded-square img{
     border-radius:30px;
 }
- 
+
+
+/* ===== Rounded Rectangle ===== */
+
 .rounded-rect img{
     border-radius:40px;
 }
- 
+
+
+/* ===== Hexagon Shape ===== */
+
 .hexagon img{
-    width:180px;
-    height:180px;
-    object-fit:cover;
     clip-path: polygon(
         25% 5%, 75% 5%,
         100% 50%,
@@ -139,57 +129,38 @@ body{
         0% 50%
     );
 }
- 
+
+
+
 .ride-card:hover img{
     transform:scale(1.1);
 }
- 
+
+
 .diamond:hover img{
     transform:rotate(45deg) scale(1.1);
 }
- 
+
 /* ===== Welcome Section ===== */
-.section-tag{
-    display:inline-block;
-    background:#E8F1FF;
-    color:#2F80ED;
-    padding:8px 18px;
-    border-radius:50px;
-    font-size:14px;
-    font-weight:600;
-    margin-bottom:15px;
-}
+
 .welcome{
     text-align:center;
-    /* padding:12px 30px 0; */
-    margin:60px 0 40px;
+    padding:12px 30px 0;
 }
- 
-.welcome h2{
-    /* font-size:36px;
-    color:#333; */
-    font-size:42px;
-    color:#2C3E50;
-    margin-bottom:10px;
 
+.welcome h2{
+    font-size:36px;
+    color:#333;
 }
- 
+
 .welcome p{
-    color:#6B7280;
+    color:#666;
     font-size:18px;
-    margin:0;
 }
-.welcome::after{
-    content:"";
-    display:block;
-    width:120px;
-    height:4px;
-    background:#2F80ED;
-    margin:20px auto;
-    border-radius:10px;
-}
- 
+
+
 /* ===== Ride Cards Upgrade ===== */
+
 .ride-card{
     background:white;
     padding:25px;
@@ -197,13 +168,15 @@ body{
     box-shadow:0 10px 25px rgba(0,0,0,0.1);
     transition:0.4s;
 }
- 
+
 .ride-card:hover{
     transform:translateY(-12px) scale(1.03);
     box-shadow:0 15px 35px rgba(0,0,0,0.2);
 }
- 
+
+
 /* ===== Sidebar ===== */
+
 .sidebar{
     position:fixed;
     left:-220px;
@@ -215,7 +188,7 @@ body{
     transition:0.4s;
     z-index:1000;
 }
- 
+
 .sidebar a{
     display:block;
     padding:15px 25px;
@@ -224,12 +197,14 @@ body{
     font-size:18px;
     transition:0.3s;
 }
- 
+
 .sidebar a:hover{
     background:#34495E;
 }
- 
+
+
 /* ===== Menu Button ===== */
+
 .menu-btn{
     position:fixed;
     top:20px;
@@ -243,17 +218,32 @@ body{
     cursor:pointer;
     z-index:1100;
 }
- 
+
+
 /* ===== Sidebar Open State ===== */
+
 .sidebar.active{
     left:0;
 }
- 
+
+.sidebar{
+    position:fixed;
+    left:-220px;
+    top:0;
+    width:220px;
+    height:100%;
+    background:#2C3E50;
+    padding-top:60px;
+    transition:0.4s;
+    z-index:1000;
+}
+
 .hero{
     height:160px;
     width:80%;
     margin:30px auto;
     background:linear-gradient(135deg,#5f2c82,#49a09d);
+    /* background: linear-gradient(135deg,#1CB5E0,#000851); */
     display:flex;
     justify-content:center;
     align-items:center;
@@ -264,17 +254,18 @@ body{
     position:relative;
     overflow:hidden;
 }
- 
+
+
 .hero-content h2{
     font-size:26px;
     margin-bottom:10px;
 }
- 
+
 .hero-content p{
     font-size:14px;
     margin-bottom:20px;
 }
- 
+
 #chatbox {
     position: fixed;
     bottom: 80px;
@@ -287,9 +278,9 @@ body{
     flex-direction: column;
     box-shadow: 0 10px 30px rgba(0,0,0,0.2);
     overflow: hidden;
-    z-index: 999;
 }
- 
+
+/* Header */
 .chat-header {
     background: #1f3c88;
     color: white;
@@ -297,7 +288,8 @@ body{
     font-weight: bold;
     text-align: center;
 }
- 
+
+/* Messages area */
 #chat-messages {
     flex: 1;
     padding: 10px;
@@ -305,7 +297,8 @@ body{
     display: flex;
     flex-direction: column;
 }
- 
+
+/* Chat bubbles */
 .message {
     padding: 10px 15px;
     border-radius: 15px;
@@ -313,25 +306,28 @@ body{
     max-width: 75%;
     font-size: 14px;
 }
- 
+
+/* User message */
 .user {
     background: #1f3c88;
     color: white;
     align-self: flex-end;
 }
- 
+
+/* Bot message */
 .bot {
     background: #f1f1f1;
     color: black;
     align-self: flex-start;
 }
- 
+
+/* Input area */
 .chat-input {
     display: flex;
     padding: 10px;
     border-top: 1px solid #ddd;
 }
- 
+
 .chat-input input {
     flex: 1;
     padding: 10px;
@@ -339,7 +335,7 @@ body{
     border: 1px solid #ccc;
     outline: none;
 }
- 
+
 .chat-input button {
     margin-left: 10px;
     padding: 10px 15px;
@@ -349,7 +345,8 @@ body{
     border-radius: 50%;
     cursor: pointer;
 }
- 
+
+/* 🔥 CHAT ICON (YOU REMOVED THIS) */
 #chat-icon {
     position: fixed;
     bottom: 20px;
@@ -363,28 +360,17 @@ body{
     z-index: 1000;
 }
 
-.stats{
-    width:80%;
-    margin:30px auto;
-    display:flex;
-    justify-content:space-around;
-    background:white;
-    border-radius:20px;
-    padding:25px;
-    box-shadow:0 8px 20px rgba(0,0,0,0.08);
-}
-
-.stat-box{
-    text-align:center;
-}
-
-.stat-box h3{
-    margin:0;
-    font-size:32px;
-    color:#2F80ED;
-}
-
-.stat-box p{
-    margin-top:8px;
-    color:#666;
+#chatbox {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    width: 320px;
+    height: 500px;
+    background: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    overflow: hidden;
+    z-index: 999;
 }

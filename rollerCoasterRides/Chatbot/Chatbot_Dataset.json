@@ -1,7 +1,7 @@
 {
   "qa_pairs": [
 
-    { "word": "Hello", "meaning": "Hi , Welcome!\n FunLand is an amusement park with rides, food, and entertainment." },
+    { "word": "Hello", "meaning": "Hi , Welcome!\n FunLand is an amuseRment park with rides, food, and entertainment." },
     { "word": "park information and rides", "meaning": "FunLand offers dry rides, water rides, food, and facilities." },
     { "word": "park open days", "meaning": "FunLand is open daily from 10 AM to 11 PM." },
 
@@ -208,10 +208,10 @@
     { "word": "park safety system", "meaning": "FunLand maintains strict safety standards." },
     { "word": "visitor safety", "meaning": "Visitor safety is ensured across all rides." },
 
-    { "word": "food snacks", "meaning": "Snacks like fries and burgers are available." },
-    { "word": "quick food", "meaning": "Quick food options include pizza, fries, and burgers." },
+    { "word": "food  and snacks", "meaning": "Snacks like fries and burgers are available." },
+    { "word": "food items available", "meaning": "Quick food options include pizza, fries, and burgers." },
 
-    { "word": "drink options", "meaning": "Drinks like coke and coffee are available." },
+    { "word": "drink options", "meaning": "Drinks like coke , limca , pepsi , cold coffee and hot coffee are available." },
     { "word": "refreshments available", "meaning": "Food and drinks are available inside the park." },
 
     { "word": "meal break", "meaning": "Visitors can take breaks and enjoy food." },

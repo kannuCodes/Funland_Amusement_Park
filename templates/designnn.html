@@ -41,7 +41,6 @@
 
         .sidebar-header{
             padding:15px;
-            
             cursor:pointer;
             font-size:20px;
             display:flex; 
@@ -57,12 +56,12 @@
             align-items:center;
             gap:15px;
             cursor:pointer;
-            color:#e5e7eb; /* 🔴 CHANGED text color */
+            color:#e5e7eb;
             transition:0.2s;
         }
 
         .sidebar-item:hover{
-            background:#374151; /* 🔴 CHANGED hover bg */
+            background:#374151;
             color:#f59e0b;
         }
 
@@ -111,7 +110,7 @@
 
         .card{
             background:#fff;
-            width:350px;
+            width:500px;
             padding:30px;
             border-radius:14px;
             box-shadow: 0 15px 30px rgba(0,0,0,0.12);
@@ -140,6 +139,12 @@
             font-weight:bold;
             cursor:pointer;
             color: white;
+        }
+
+        .divider{
+            border:none;
+            border-top:1px solid #e5e7eb;
+            margin:20px 0;
         }
 
         /* ===== Footer ===== */
@@ -205,6 +210,7 @@
             <div class="card">
                 <h2>Please fill your details</h2>
 
+                <!-- ===== STAGE 1: Original form — unchanged ===== -->
                 <form method="POST">
                     {% csrf_token %}
 
@@ -233,8 +239,67 @@
                 {% endif %}
 
                 {% if bill %}
-                    <h3>Your total fare is Rs {{ bill }}</h3>
+                    <h3>Your fare per person : Rs {{ bill }}</h3>
+                    <hr class="divider">
+
+                    <!-- ===== STAGE 2: Number of seats input ===== -->
+                    <!-- Hidden fields carry forward Stage 1 inputs so view can recalculate -->
+                    <!-- stage=2 tells the view we are now at seats step -->
+                    <form method="POST">
+                        {% csrf_token %}
+                        <input type="hidden" name="name" value="{{ form_data.name }}">
+                        <input type="hidden" name="age" value="{{ form_data.age }}">
+                        <input type="hidden" name="height" value="{{ form_data.height }}">
+                        <input type="hidden" name="seat" value="{{ form_data.seat }}">
+                        <input type="hidden" name="ride_id" value="{{ form_data.ride_id }}">
+                        <input type="hidden" name="booking_date" value="{{ form_data.booking_date }}">
+                        <input type="hidden" name="time_slot" value="{{ form_data.time_slot }}">
+                        <input type="hidden" name="stage" value="2">
+
+                        <label>Number of Seats :</label>
+                        <input type="number" name="num_seats" min="1" required>
+
+                        <button type="submit">Calculate Final Bill</button>
+                    </form>
                 {% endif %}
+
+                {% if final_bill %}
+                    <hr class="divider">
+
+                    <!-- ===== STAGE 3: Final bill + Confirm Booking ===== -->
+                    <!-- Shows bill × num_seats -->
+                    <!-- stage=3 tells the view to save booking to DB -->
+                    <h3>Final Bill : Rs {{ final_bill }}</h3>
+                    <form method="POST">
+                        {% csrf_token %}
+                        <input type="hidden" name="name" value="{{ form_data.name }}">
+                        <input type="hidden" name="age" value="{{ form_data.age }}">
+                        <input type="hidden" name="height" value="{{ form_data.height }}">
+                        <input type="hidden" name="seat" value="{{ form_data.seat }}">
+                        <input type="hidden" name="num_seats" value="{{ form_data.num_seats }}">
+                        <input type="hidden" name="ride_id" value="{{ form_data.ride_id }}">
+                        <input type="hidden" name="booking_date" value="{{ form_data.booking_date }}">
+                        <input type="hidden" name="time_slot" value="{{ form_data.time_slot }}">
+                        <input type="hidden" name="stage" value="3">
+
+                        <input type="hidden" name="ride_id" value="1">
+                        <label>Booking Date :</label>
+                        <input type="date" name="booking_date" required>
+                        <label>Time Slot :</label>
+                        <input type="time" name="time_slot" required>
+
+                        <button type="submit">Confirm Booking</button>
+                    </form>
+                {% endif %}
+
+                {% if booking_confirmed %}
+                    <hr class="divider">
+                    <!-- Success message after DB save -->
+                    <p style="color:green; font-weight:bold;">
+                        ✅ Booking Confirmed! See you at the ride.
+                    </p>
+                {% endif %}
+
             </div>
         </main>
 
@@ -253,4 +318,3 @@
 
 </body>
 </html>
-

@@ -35,13 +35,39 @@
     </div>
 
 </section>
+<section class="stats">
+
+    <div class="stat-box">
+        <h3>50+</h3>
+        <p>Exciting Rides</p>
+    </div>
+
+    <div class="stat-box">
+        <h3>10K+</h3>
+        <p>Happy Visitors</p>
+    </div>
+
+    <div class="stat-box">
+        <h3>24/7</h3>
+        <p>Support</p>
+    </div>
+
+</section>
         <div id="sidebar" class="sidebar">
 
     <a href="{% url 'rollerCoaster' %}">🎢 Rides</a>
     <a href="{% url 'water_slides' %}" >🌊 Water Rides</a>
-    <a href="#">🍔 Food Court</a>
+    <a href="{% url 'food_ordering' %}">🍔 Food Court</a>
     <a href="#">📞 Contact</a>
-    <a href="#">👤 Register/Login</a>
+    <a href="{% url 'register_login' %}">👤 Register/Login</a>
+    <form method="POST" action="{% url 'logout' %}">
+    {% csrf_token %}
+    <button type="submit" style="background:none; border:none; width:100%; cursor:pointer; padding:18px 20px; display:flex; align-items:center; gap:15px; color:#e5e7eb;">
+        <i class="fa-solid fa-right-from-bracket"></i>
+        <span>Logout</span>
+    </button>
+</form>
+</a>
 
 </div>
 
@@ -52,8 +78,17 @@
     
 </div>
 
-        <h1>Welcome to the Home Page</h1>
-        <p>Select your rides </p>
+    <div class="welcome">
+
+    <span class="section-tag">FUNLAND RIDES</span>
+
+    <h2>Choose Your Next Adventure</h2>
+
+    <p>
+        Thrilling rides, water attractions, and unforgettable experiences await you.
+    </p>
+
+</div>
         <section class="rides-section">        
     <a href="{% url 'rollerCoaster' %}">        
     <div class="ride-card coaster circle">
@@ -114,6 +149,23 @@ function toggleSidebar(){
 </script>   
 
 <div id="chatbox" style="display:none;">
+    <div class="chat-header">
+        🤖 Park Assistant
+    </div>
+
+    <div id="chat-messages"></div>
+
+    <div class="chat-input">
+        <input type="text" id="user-input" placeholder="Type a message...">
+        <button onclick="sendMessage()">➤</button>
+    </div>
+</div>
+
+<div id="chat-icon" onclick="toggleChat()">
+    <i class="fa-solid fa-robot"></i>
+</div>
+
+<!-- <div id="chatbox" style="display:none;">
     <h3>Park Assistant</h3>
 
     <div id = "chat-messages"></div>
@@ -123,7 +175,7 @@ function toggleSidebar(){
 </div>
 <div id="chat-icon" onclick="toggleChat()">
     <i class="fa-solid fa-robot"></i>
-</div>
+</div> -->
 
 <script>
     function sendMessage(){
@@ -145,8 +197,8 @@ function toggleSidebar(){
         .then(data => {
             let chat = document.getElementById("chat-messages");
 
-            chat.innerHTML += "<p><b>You:</b>" + message + "</p>";
-            chat.innerHTML += "<p><b>Bot:</b>" + data.reply + "</p>";
+            chat.innerHTML += `<div class="message user">${message}</div>`;
+            chat.innerHTML += `<div class="message bot">${data.reply}</div>`;
 
             document.getElementById("user-input").value = "";
 
@@ -154,14 +206,14 @@ function toggleSidebar(){
        
     }
      function toggleChat(){
-                let chat = document.getElementById("chatbox");
-
-                if (chat.style.display === "none"){
-                    chat.style.display = "block";    
-                }else {
-                    chat.style.display = "none";
-                }
-            }
+        let chat = document.getElementById("chatbox");
+        if (chat.style.display === "none" || chat.style.display === ""){
+            chat.style.display = "flex";
+        } else {
+            chat.style.display = "none";
+        }
+    
+    }
 
     function getCSRFToken() {
     const name = "csrftoken=";
@@ -176,6 +228,12 @@ function toggleSidebar(){
     }
     return null;
 }
+document.getElementById("user-input").addEventListener("keypress", function(event) {
+    if (event.key === "Enter") {
+        event.preventDefault();   // stops page refresh
+        sendMessage();            // call your function
+    }
+});
 </script>
 </body>
 </html>
